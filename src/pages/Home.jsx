@@ -482,6 +482,122 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Strategic Growth Section */}
+        <section className="bg-gradient-to-r from-[#F8F9FB] to-white py-16 scroll-animate">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-[#0A2740] text-3xl md:text-4xl font-bold mb-4">
+                Your Partner for Sustainable Business Growth
+              </h2>
+              <p className="text-lg text-[#123A5A] max-w-3xl mx-auto">
+                We help businesses scale with high-value funding, intelligent
+                strategy, and data-driven decision-making.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div>
+                <p className="text-[#123A5A] text-lg leading-relaxed mb-6">
+                  At{" "}
+                  <span className="text-[#D4A537] font-semibold">
+                    Ameraa Finnway
+                  </span>
+                  , we combine strategic business consulting with high-value
+                  project funding to accelerate your company's growth. From
+                  securing institutional capital to building future-ready
+                  business strategies, we ensure you have the financial
+                  strength, clarity, and direction needed to win and retain
+                  customers—consistently and confidently.
+                </p>
+
+                <ul className="space-y-3 mb-8">
+                  {[
+                    "High-value institutional funding across India",
+                    "Business strategy & data intelligence for expansion",
+                    "Customer acquisition & performance-driven growth",
+                    "Future-ready planning powered by expert insights",
+                  ].map((point, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-[#D4A537] shrink-0 mt-1" />
+                      <span className="text-[#0A2740]">{point}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button
+                    onClick={() => scrollToSection("#services")}
+                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
+                  >
+                    Explore Growth Advisory
+                  </button>
+                  <button
+                    onClick={() => scrollToSection("#apply")}
+                    className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200"
+                  >
+                    Schedule a Consultation
+                  </button>
+                </div>
+              </div>
+
+              <div className="bg-white p-8 rounded-xl shadow-lg border border-[#E2E2E2]">
+                <div className="grid grid-cols-2 gap-6">
+                  {[
+                    {
+                      icon: DollarSign,
+                      title: "Funding Range",
+                      value: "₹20 Cr - ₹100 Cr+",
+                      desc: "High-value institutional capital",
+                    },
+                    {
+                      icon: TrendingUp,
+                      title: "Growth Focus",
+                      value: "Strategic Scaling",
+                      desc: "Beyond just funding",
+                    },
+                    {
+                      icon: Users,
+                      title: "Customer Success",
+                      value: "Data-Driven",
+                      desc: "Win & retain customers",
+                    },
+                    {
+                      icon: Award,
+                      title: "Expertise",
+                      value: "20+ Years",
+                      desc: "Pan-India experience",
+                    },
+                  ].map((stat, idx) => (
+                    <div
+                      key={idx}
+                      className="bg-[#F8F9FB] p-4 rounded-lg text-center"
+                    >
+                      <stat.icon className="w-8 h-8 text-[#D4A537] mx-auto mb-2" />
+                      <h4 className="font-bold text-[#0A2740] text-sm mb-1">
+                        {stat.title}
+                      </h4>
+                      <p className="text-[#D4A537] font-semibold mb-1">
+                        {stat.value}
+                      </p>
+                      <p className="text-xs text-[#123A5A]">{stat.desc}</p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="mt-8 pt-8 border-t border-[#E2E2E2]">
+                  <div className="flex items-center justify-center gap-2 text-[#0A2740]">
+                    <MapPin className="w-5 h-5 text-[#D4A537]" />
+                    <span className="font-semibold">Pan-India Presence</span>
+                    <span className="text-[#123A5A]">•</span>
+                    <span>40+ Institutional Partners</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section id="sectors" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
@@ -523,6 +639,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section id="process" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">

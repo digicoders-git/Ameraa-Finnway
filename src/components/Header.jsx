@@ -12,6 +12,7 @@ export default function Header() {
 
   const services = [
     'Construction & Real Estate Finance',
+    'Growth Advisory',
     'Healthcare Finance',
     'Hospitality Finance',
     'Manufacturing & Industrial Finance',

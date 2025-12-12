@@ -9,6 +9,7 @@ import Process from "../pages/Process";
 import Sectors from "../pages/Sector";
 import ConstructionRealEstate from "../pages/service/ConstructionRealEstate";
 import Government from "../pages/service/Government";
+import GrowthAdvisory from "../pages/service/GrowthAdvisory";
 import Healthcare from "../pages/service/Healthcare";
 import Hospitality from "../pages/service/Hospitality";
 import Manufacturing from "../pages/service/Manufacturing";
@@ -27,5 +28,6 @@ const AppRoute = [
   {path: "/Contact", component:Contact, name:"Contact"},
   {path: "/apply", component:Apply, name:"Apply"},
   {path: "/loader", component:Loader, name:"loader"},
+  {path: "/growth-advisory", component:GrowthAdvisory, name:"growth-advisory"},
 ]
 export default AppRoute;
