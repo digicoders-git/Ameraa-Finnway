@@ -1,4 +1,9 @@
+import axios from "axios";
+
 import React, { useState, useEffect, useRef } from "react";
+import "./Apply.css";
+import Loader from "../components/Loader";
+import { toast } from "react-toastify";
 
 const Apply = () => {
   const [formData, setFormData] = useState({
@@ -28,6 +33,8 @@ const Apply = () => {
   });
 
   const [isVisible, setIsVisible] = useState({});
+  const [succesLoad, setsuccesLoad] = useState(false);
+  const [error, setError] = useState("");
   const sectionRefs = useRef([]);
 
   useEffect(() => {
@@ -62,7 +69,7 @@ const Apply = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const payload = new FormData();
@@ -70,7 +77,50 @@ const Apply = () => {
       payload.append(key, value);
     });
 
-    console.log("Final FormData:", formData);
+    try {
+      setsuccesLoad(true);
+      setError("");
+      console.log(import.meta.env.VITE_BASE_URL);
+      const abhay = await axios.post(
+        import.meta.env.VITE_BASE_URL + "/project/create",
+        formData,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+        }
+      );
+      setsuccesLoad(false);
+      toast("Project Submited...");
+      // console.log(abhay.data);
+      setFormData({
+        name: "",
+        company: "",
+        phone: "",
+        email: "",
+        city: "",
+        projectType: "",
+        loanRequirement: "",
+        message: "",
+
+        dpr: null,
+        projectReport: null,
+        companyProfile: null,
+        itr: null,
+        bankStatement: null,
+        gstr: null,
+        // gstLatest: null,
+        businessProof: null,
+        electricityBill: null,
+        pan: null,
+        adhar: null,
+        photo: null,
+        loadStatement: null,
+        propertyPaper: null,
+      });
+    } catch (error) {
+      setsuccesLoad(false);
+      // console.log(error.response.data.message);
+      setError(error.response.data.message);
+    }
   };
 
   return (
@@ -263,7 +313,8 @@ const Apply = () => {
 
             <div>
               <label className="block text-[#0A2740] font-semibold mb-2">
-                3 Years ITR With Audit Report / Profit Loss Balance Sheet of Company & Individual
+                3 Years ITR With Audit Report / Profit Loss Balance Sheet of
+                Company & Individual
               </label>
               <input
                 type="file"
@@ -383,7 +434,8 @@ const Apply = () => {
 
             <div>
               <label className="block text-[#0A2740] font-semibold mb-2">
-                Property Paper With Landmark - Full Address with pincode and Property Owner Name
+                Property Paper With Landmark - Full Address with pincode and
+                Property Owner Name
               </label>
               <input
                 type="file"
@@ -407,12 +459,19 @@ const Apply = () => {
               ></textarea>
             </div>
 
-            <button
-              type="submit"
-              className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto"
-            >
-              Submit Project for Review
-            </button>
+            <div className="flex gap-4 items-center">
+              <button
+                type="submit"
+                className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2"
+                disabled={succesLoad}
+              >
+                {succesLoad && <Loader size="sm" />}
+                Submit Project for Review
+              </button>
+              <div className="text-xl text-red-500 font-semibold">
+                {error && error}
+              </div>
+            </div>
           </form>
         </div>
       </div>

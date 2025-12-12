@@ -1,0 +1,18 @@
+.loader {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 3px solid;
+  border-color: #D4A537 transparent #D4A537 transparent;
+  border-radius: 50%;
+  animation: dual-ring-spin 1.2s linear infinite;
+}
+
+@keyframes dual-ring-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

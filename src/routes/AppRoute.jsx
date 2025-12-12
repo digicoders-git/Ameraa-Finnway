@@ -1,3 +1,5 @@
+
+import Loader from "../components/Loader";
 import About from "../pages/About";
 import Apply from "../pages/Apply";
 import CaseStudies from "../pages/Case-studies";
@@ -24,5 +26,6 @@ const AppRoute = [
   {path: "/government-contractors-&-bank-guarantees", component:Government, name:"Government"},
   {path: "/Contact", component:Contact, name:"Contact"},
   {path: "/apply", component:Apply, name:"Apply"},
+  {path: "/loader", component:Loader, name:"loader"},
 ]
 export default AppRoute;
