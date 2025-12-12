@@ -167,11 +167,11 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
             <div className="text-gray-300">
-              © 2025 AMERAA FINNWAY. All Rights Reserved.
+              © 2025 Designed & Developed by <a className='hover:text-yellow-500' target='_blank' href="https://thedigicoders.com/">#TeamDigiCoders</a>
             </div>
             <div className="flex flex-wrap justify-center gap-6">
               <a
-                href="/privacy-policy"
+                href="/PrivacyAndPolicy"
                 className="text-white hover:text-[#D4A537] transition-colors duration-200"
               >
                 Privacy Policy

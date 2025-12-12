@@ -317,16 +317,59 @@ export default function Home() {
 
   const caseStudies = [
     {
-      title: "Hospital Expansion",
-      amount: "₹45 Cr Sanctioned",
-      desc: "3 months full approval + machinery funding",
-    },
-    {
-      title: "Real Estate Tower",
-      amount: "₹70 Cr Funding",
-      desc: "Govt bank + NBFC blended structure",
-    },
-  ];
+    title: "Education Campus – New School Infrastructure",
+    amount: "₹28 Cr Approved",
+    desc: "Funding structured for classrooms, labs & hostel with long-tenure repayment.",
+  },
+  {
+    title: "Manufacturing Unit – Industrial Plant Setup",
+    amount: "₹52 Cr Sanctioned",
+    desc: "CAPEX + machinery finance with working capital line for operations.",
+  },
+  {
+    title: "Hospital Expansion – Multi-Specialty Unit",
+    amount: "₹45 Cr Sanctioned",
+    desc: "Sanction received in 3 months including equipment finance & phased construction disbursement.",
+  },
+  {
+    title: "Healthcare – Diagnostics & Imaging Centre",
+    amount: "₹18 Cr Funding",
+    desc: "Structured loan for high-end medical equipment & facility expansion.",
+  },
+  {
+    title: "Hospitality – Resort Expansion & Renovation",
+    amount: "₹38 Cr Sanctioned",
+    desc: "Upgrade, new block development & revenue-backed financing.",
+  },
+  {
+    title: "Real Estate Commercial Tower – Grade A Project",
+    amount: "₹70 Cr Funding",
+    desc: "Govt Bank + NBFC blended structure with milestone-based release for construction.",
+  },
+  {
+    title: "Manufacturing Unit – Industrial Plant Setup",
+    amount: "₹52 Cr Sanctioned",
+    desc: "CAPEX + machinery finance with working capital line for operations.",
+  },
+  
+  {
+    title: "Hospitality – 4-Star Hotel Development",
+    amount: "₹60 Cr Approved",
+    desc: "Project finance covering construction, FF&E and pre-opening expenses.",
+  },
+  {
+    title: "Infrastructure – EPC Road Construction Project",
+    amount: "₹90 Cr Structured",
+    desc: "Working capital + BG support for multi-phase government project execution.",
+  },
+  {
+    title: "Renewable Energy – Solar Power Plant (IPP)",
+    amount: "₹75 Cr Funding",
+    desc: "Project finance for 12MW solar setup including land, EPC & grid connectivity.",
+  },
+  
+];
+
 
   const testimonials = [
     {
@@ -417,8 +460,8 @@ export default function Home() {
                 Private Finance
               </h1>
               <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
-                Project funding starting at ₹20 Crores for Real Estate,
-                Hospitals, Hotels, Education Institutions & Infrastructure
+                Project funding starting at ₹20 Crores for Education, Manufacturing, Healthcare, Hospitality, Infrastructure Real Estate,
+                Renewable Energy, Hotels
                 Projects — with fast approvals and seamless processing.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">

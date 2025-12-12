@@ -200,7 +200,7 @@ export default function About() {
 
       {/* Strategic Business Growth & Consulting Section */}
 <section 
-  // ref={el => sectionRefs.current[3] = el}
+  ref={el => sectionRefs.current[3] = el}
   className={`bg-[#F8F9FB] py-16 px-4 transition-all duration-1000 ${
     isVisible[3] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
   }`}
