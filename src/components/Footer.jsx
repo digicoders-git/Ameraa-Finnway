@@ -42,7 +42,7 @@ export default function Footer() {
             
             <div className="flex gap-4">
               <a
-                  href='/www.linkedin.com/in/vishal-s-kumar-4272725a'
+                  href='https://www.linkedin.com/in/vishal-s-kumar-4272725a'
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-[#D4A537] hover:bg-[#D4A537] hover:text-white transition-all duration-300 hover:scale-110"

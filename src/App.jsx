@@ -2,10 +2,12 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import AppRoute from "./routes/AppRoute";
 import Footer from "./components/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   return (
     <div>
+      <ScrollToTop />
       <Header />
       <Routes>
         {AppRoute.map((r,i) => {
