@@ -5,7 +5,7 @@ export default function Footer() {
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
-    { name: 'Services', path: '/services' },
+    // { name: 'Services', path: '/services' },
     { name: 'Sectors', path: '/sectors' },
     { name: 'Funding Process', path: '/process' },
     { name: 'Case Studies', path: '/case-studies' },
@@ -36,7 +36,7 @@ export default function Footer() {
           
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-bold text-[#D4A537] mb-4">AMERAA FINNWAY</h3>
-            <p className="text-sm text-gray-300 mb-6 leading-relaxed">
+            <p className=" text-gray-300 mb-6 leading-relaxed">
               A premier project finance advisory specializing in ₹20 Cr – ₹100 Cr+ government bank funding for Real Estate, Hospitals, Hotels, Education Institutions, Infrastructure & Industrial projects. PAN-India presence with 20+ years of financial expertise.
             </p>
             
@@ -60,7 +60,7 @@ export default function Footer() {
                 <li key={idx}>
                   <a
                     href={link.path}
-                    className="text-sm text-white hover:text-[#A4C8E1] transition-colors duration-200 inline-block"
+                    className=" text-white hover:text-[#A4C8E1] transition-colors duration-200 inline-block"
                   >
                     {link.name}
                   </a>
@@ -76,7 +76,7 @@ export default function Footer() {
                 <li key={idx}>
                   <a
                     href={service.path}
-                    className="text-sm text-white hover:text-[#A4C8E1] transition-colors duration-200 inline-block"
+                    className=" text-white hover:text-[#A4C8E1] transition-colors duration-200 inline-block"
                   >
                     {service.name}
                   </a>
