@@ -9,8 +9,8 @@ export default function Footer() {
     { name: 'Sectors', path: '/sectors' },
     { name: 'Funding Process', path: '/process' },
     { name: 'Case Studies', path: '/case-studies' },
-    { name: 'Testimonials', path: '/testimonials' },
-    { name: 'FAQ', path: '/faq' },
+    // { name: 'Testimonials', path: '/testimonials' },
+    // { name: 'FAQ', path: '/faq' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -19,10 +19,10 @@ export default function Footer() {
     { name: 'Construction & Real Estate Finance', path: '/construction-real-estate-finance' },
     { name: 'Healthcare Finance', path: '/healthcare-finance' },
     { name: 'Hospitality Finance', path: '/hospitality-finance' },
-    { name: 'Manufacturing & Industrial Finance', path: '/manufacturing-industrial-finance' },
-    { name: 'Government Contractor Funding', path: '/government-contractors-bank-guarantees' },
-    { name: 'Bank Guarantees (PBG, APG, Bid Bonds)', path: '/bank-guarantees' },
-    { name: 'Renewable Energy Project Finance', path: '/renewable-energy-finance' }
+    { name: 'Manufacturing & Industrial Finance', path: '/manufacturing-&-industrial-finance' },
+    { name: 'Government Contractor Funding', path: '/government-contractors-&-bank-guarantees' },
+    // { name: 'Bank Guarantees (PBG, APG, Bid Bonds)', path: '/bank-guarantees' },
+    // { name: 'Renewable Energy Project Finance', path: '/renewable-energy-finance' }
   ];
 
 

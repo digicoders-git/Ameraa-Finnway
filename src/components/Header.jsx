@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Menu, X, ChevronDown } from 'lucide-react';
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.jpg'
+import { RiMenu4Line } from 'react-icons/ri';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -116,12 +117,12 @@ export default function Header() {
             </div>
 
             <button 
-              className="lg:hidden text-white focus:outline-none focus:ring-2 focus:ring-[#D4A537] rounded"
+              className="lg:hidden text-white focus:outline-none rounded"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle mobile menu"
               aria-expanded={mobileMenuOpen}
             >
-              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {mobileMenuOpen ? <X className="w-8 h-8" /> : <RiMenu4Line  className="w-8 h-8" />}
             </button>
           </div>
 
@@ -157,7 +158,12 @@ export default function Header() {
                 <NavLink to="/sectors" className={({ isActive }) => `hover:text-[#D4A537] transition-colors duration-200 focus:outline-none focus:text-[#D4A537] ${isActive ? 'text-[#D4A537]' : ''}`}>Sectors</NavLink>
                 <NavLink to="/process" className={({ isActive }) => `hover:text-[#D4A537] transition-colors duration-200 focus:outline-none focus:text-[#D4A537] ${isActive ? 'text-[#D4A537]' : ''}`}>Process</NavLink>
                 <NavLink to="/case-studies" className={({ isActive }) => `hover:text-[#D4A537] transition-colors duration-200 focus:outline-none focus:text-[#D4A537] ${isActive ? 'text-[#D4A537]' : ''}`}>Case Studies</NavLink>
-                
+                <NavLink 
+                to="/apply" 
+                className="bg-[#D4A537] text-white px-6 py-3 rounded-lg hover:bg-[#C29530] transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-[#D4A537] focus:ring-offset-2 focus:ring-offset-[#0A2740] text-center"
+              >
+                Apply
+              </NavLink>
                 <NavLink 
                   to="/contact" 
                   className="bg-[#D4A537] text-white px-6 py-3 rounded-lg hover:bg-[#C29530] transition-colors duration-200 font-semibold text-center mt-4 focus:outline-none focus:ring-2 focus:ring-white"

@@ -34,6 +34,7 @@ export default function Home() {
       setErrors({ ...errors, [name]: '' });
     }
   };
+  console.log(formData)
 
   const validateForm = () => {
     const newErrors = {};
@@ -272,7 +273,7 @@ export default function Home() {
               <div className="bg-white p-8 rounded-lg border-2 border-[#D4A537] mb-6 scroll-animate">
                 <h3 className="text-2xl font-bold text-[#0A2740] mb-4">₹20 Cr – ₹100 Cr+ Project Funding</h3>
                 <ul className="space-y-3">
-                  {['Registered Company/Entity', 'Valid Project Plan / Expansion Blueprint', 'Land documents (Real Estate / Hospital Projects)', 'Financial statements (2–3 years)', 'GST, IT returns, KYC'].map((item, idx) => (
+                  {['Registered Company/Entity', 'Valid Project Report / Expansion Blueprint', 'Land documents (Real Estate / Hospital Projects)', 'Financial statements (2–3 years)', 'GST, IT returns, KYC'].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <CheckCircle className="w-5 h-5 text-[#D4A537] shrink-0 mt-1" />
                       <span className="text-[#3A3A3A]">{item}</span>
@@ -418,11 +419,11 @@ export default function Home() {
                     aria-invalid={!!errors.category}
                   >
                     <option value="">Project Category *</option>
-                    <option>Real Estate</option>
-                    <option>Healthcare</option>
-                    <option>Hospitality</option>
                     <option>Education</option>
                     <option>Manufacturing</option>
+                    <option>Healthcare</option>
+                    <option>Hospitality</option>
+                    <option>Real Estate</option>
                     <option>Infrastructure</option>
                   </select>
                   {errors.category && <p className="text-red-500 text-sm mt-1">{errors.category}</p>}
@@ -475,9 +476,9 @@ export default function Home() {
                   <Phone className="w-5 h-5 text-[#D4A537]" aria-hidden="true" />
                   <span className="text-[#0A2740]">+91 9592171057</span>
                 </a>
-                <a href="mailto:info@example.com" className="flex items-center justify-center gap-2 hover:text-[#D4A537] transition-colors" aria-label="Email us">
+                <a href="mailto:info@ameraafinnway.com" className="flex items-center justify-center gap-2 hover:text-[#D4A537] transition-colors" aria-label="Email us">
                   <Mail className="w-5 h-5 text-[#D4A537]" aria-hidden="true" />
-                  <span className="text-[#0A2740]">info@example.com</span>
+                  <span className="text-[#0A2740]">info@ameraafinnway.com</span>
                 </a>
                 <div className="flex items-center justify-center gap-2">
                   <MapPin className="w-5 h-5 text-[#D4A537]" aria-hidden="true" />
