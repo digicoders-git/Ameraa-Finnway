@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Hospital, Hotel, Building2, Factory, GraduationCap, Construction, Zap, CheckCircle, ArrowRight } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function Sectors() {
   const [isVisible, setIsVisible] = useState({});
@@ -359,13 +360,13 @@ export default function Sectors() {
           <p className="text-xl text-[#A4C8E1] mb-8">
             Get expert guidance and structured financing from ₹20 Cr to ₹100 Cr+ for your industry
           </p>
-          <a 
-            href="#contact"
+          <NavLink 
+            to="/apply"
             className="inline-block bg-[#D4A537] hover:bg-[#C59230] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
             aria-label="Discuss your project with Ameraa Finnway"
           >
             Discuss Your Project
-          </a>
+          </NavLink>
         </div>
       </section>
     </div>

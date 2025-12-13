@@ -25,12 +25,14 @@ import {
   X,
 } from "lucide-react";
 import axios from "axios";
+import logo from "../assets/logo.jpg";
 
 // import { useState, useEffect,  } from "react";
 // import "./Apply.css";
 import Loader from "../components/Loader";
 import { toast } from "react-toastify";
 import BusinessTransformation from "../components/home/BusinessTransformation";
+import { NavLink } from "react-router-dom";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -317,69 +319,67 @@ export default function Home() {
   ];
 
   const caseStudies = [
-  {
-    title: "Hotel Construction – Premium Hospitality Project",
-    amount: "₹30 Cr Sanctioned",
-    location: "Ayodhya",
-    desc: "Structured funding for a new hotel project with phased construction-linked disbursement."
-  },
-  {
-    title: "Hotel Development – High-End Urban Property",
-    amount: "₹70 Cr Approved",
-    location: "Mumbai",
-    desc: "Large-ticket hospitality finance with blended structure for construction & pre-opening expenses."
-  },
-  {
-    title: "Rice Mill – Industrial Processing Unit",
-    amount: "₹35 Cr Funding",
-    location: "Hyderabad",
-    desc: "CAPEX financing for machinery, plant setup and operational working capital."
-  },
-  {
-    title: "Education Campus – New School Infrastructure",
-    amount: "₹35 Cr Approved",
-    location: "Lucknow",
-    desc: "Funding for academic blocks, labs, student facilities and long-tenure repayment structure."
-  },
-  {
-    title: "Oil Manufacturing Plant – Large Industrial Unit",
-    amount: "₹100 Cr Sanctioned",
-    location: "Indore",
-    desc: "End-to-end financing including machinery procurement, plant construction and utilities setup."
-  },
-  {
-    title: "Hotel Project – Hospitality Expansion",
-    amount: "₹22 Cr Funding",
-    location: "Motihari, Bihar",
-    desc: "Construction finance for mid-scale hotel with revenue-backed repayment modeling."
-  },
-  {
-    title: "Real Estate – Commercial/Residential Development",
-    amount: "₹85 Cr Sanctioned",
-    location: "Bangalore",
-    desc: "High-value real estate development funding with milestone-based disbursement."
-  },
-  {
-    title: "Real Estate – Mixed-Use Development",
-    amount: "₹35 Cr Approved",
-    location: "Ranchi",
-    desc: "Construction-linked term loan with structured financial planning for timely execution."
-  },
-  {
-    title: "Mega Infrastructure Project",
-    amount: "₹500 Cr (Ongoing)",
-    location: "Bangalore",
-    desc: "Large-scale infra financing including EPC, working capital & BG support under execution."
-  },
-  {
-    title: "Commercial Infrastructure Development",
-    amount: "₹200 Cr (Ongoing)",
-    location: "Agra",
-    desc: "Structured project finance for multi-phase commercial development with on-ground support."
-  }
-];
-
-
+    {
+      title: "Hotel Construction – Premium Hospitality Project",
+      amount: "₹30 Cr Sanctioned",
+      location: "Ayodhya",
+      desc: "Structured funding for a new hotel project with phased construction-linked disbursement.",
+    },
+    {
+      title: "Hotel Development – High-End Urban Property",
+      amount: "₹70 Cr Approved",
+      location: "Mumbai",
+      desc: "Large-ticket hospitality finance with blended structure for construction & pre-opening expenses.",
+    },
+    {
+      title: "Rice Mill – Industrial Processing Unit",
+      amount: "₹35 Cr Funding",
+      location: "Hyderabad",
+      desc: "CAPEX financing for machinery, plant setup and operational working capital.",
+    },
+    {
+      title: "Education Campus – New School Infrastructure",
+      amount: "₹35 Cr Approved",
+      location: "Lucknow",
+      desc: "Funding for academic blocks, labs, student facilities and long-tenure repayment structure.",
+    },
+    {
+      title: "Oil Manufacturing Plant – Large Industrial Unit",
+      amount: "₹100 Cr Sanctioned",
+      location: "Indore",
+      desc: "End-to-end financing including machinery procurement, plant construction and utilities setup.",
+    },
+    {
+      title: "Hotel Project – Hospitality Expansion",
+      amount: "₹22 Cr Funding",
+      location: "Motihari, Bihar",
+      desc: "Construction finance for mid-scale hotel with revenue-backed repayment modeling.",
+    },
+    {
+      title: "Real Estate – Commercial/Residential Development",
+      amount: "₹85 Cr Sanctioned",
+      location: "Bangalore",
+      desc: "High-value real estate development funding with milestone-based disbursement.",
+    },
+    {
+      title: "Real Estate – Mixed-Use Development",
+      amount: "₹35 Cr Approved",
+      location: "Ranchi",
+      desc: "Construction-linked term loan with structured financial planning for timely execution.",
+    },
+    {
+      title: "Mega Infrastructure Project",
+      amount: "₹500 Cr (Ongoing)",
+      location: "Bangalore",
+      desc: "Large-scale infra financing including EPC, working capital & BG support under execution.",
+    },
+    {
+      title: "Commercial Infrastructure Development",
+      amount: "₹200 Cr (Ongoing)",
+      location: "Agra",
+      desc: "Structured project finance for multi-phase commercial development with on-ground support.",
+    },
+  ];
 
   const testimonials = [
     {
@@ -458,35 +458,48 @@ export default function Home() {
       <main>
         <section
           id="hero"
-          className="-mt-15 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 lg:py-32 overflow-hidden"
+          className="-my-3 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20  overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')] bg-cover bg-center"></div>
           </div>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="max-w-3xl scroll-animate">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                High-Value Project Finance from Leading Government Banks and
-                Private Finance
-              </h1>
-              <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
-                Project funding starting at ₹20 Crores for Education, Manufacturing, Healthcare, Hospitality, Infrastructure Real Estate,
-                Renewable Energy, Hotels
-                Projects — with fast approvals and seamless processing.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <button
-                  onClick={() => scrollToSection("#apply")}
-                  className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
-                >
-                  Apply Now <ArrowRight className="ml-2 w-5 h-5" />
-                </button>
-                <button
-                  onClick={() => scrollToSection("#apply")}
-                  className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
-                >
-                  Schedule a Call
-                </button>
+            <div className="grid lg:grid-cols-2 gap-12 items-center">
+              {/* Left Content */}
+              <div className="scroll-animate">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                  High-Value Project Finance from Leading Government Banks and
+                  Private Finance
+                </h1>
+                <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
+                  Project funding starting at ₹20 Crores for Education,
+                  Manufacturing, Healthcare, Hospitality, Infrastructure Real
+                  Estate, Renewable Energy, Hotels Projects — with fast
+                  approvals and seamless processing.
+                </p>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <button
+                    onClick={() => scrollToSection("#apply")}
+                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
+                  >
+                    Apply Now <ArrowRight className="ml-2 w-5 h-5" />
+                  </button>
+                  <a
+                    href="tel:+91 9592171057"
+                    className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
+                  >
+                    Schedule a Call
+                  </a>
+                </div>
+              </div>
+
+              {/* Right Image */}
+              <div className="hidden lg:flex justify-center items-center">
+                <img
+                  src={logo}
+                  alt="Ameraa Finnway"
+                  className="rounded-lg max-h-96 w-auto object-contain"
+                />
               </div>
             </div>
           </div>
@@ -579,18 +592,18 @@ export default function Home() {
                 </ul>
 
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button
-                    onClick={() => scrollToSection("#services")}
-                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
+                  <NavLink
+                    to='/growth-advisory'
+                    className="cursor-pointer inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
                   >
                     Explore Growth Advisory
-                  </button>
-                  <button
-                    onClick={() => scrollToSection("#apply")}
+                  </NavLink>
+                  <NavLink
+                    to='/apply'
                     className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200"
                   >
                     Schedule a Consultation
-                  </button>
+                  </NavLink>
                 </div>
               </div>
 
@@ -692,7 +705,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-<BusinessTransformation />
+        <BusinessTransformation />
         <section id="process" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
@@ -769,7 +782,9 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-[#0A2740] mb-2">
                     {study.title}
                   </h3>
-                  <p className="text-[#D4A537] font-semibold mb-2">{study.amount}</p>
+                  <p className="text-[#D4A537] font-semibold mb-2">
+                    {study.amount}
+                  </p>
                   {/* <p className="text-[#3A3A3A]">{study.desc}</p> */}
                 </div>
               ))}

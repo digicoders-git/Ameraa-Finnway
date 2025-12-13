@@ -256,7 +256,7 @@ export default function Contact() {
         }`}
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-          <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          <a href="tel:+91 9592171057" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Phone className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Phone</h3>
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
@@ -266,15 +266,15 @@ export default function Contact() {
             <p className="text-[#3A3A3A] text-sm mt-2">
               Available Mon–Sat, 10AM–7PM
             </p>
-          </div>
-          <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          </a>
+          <a href="mailto:info@ameraafinnway.com" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Mail className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Email</h3>
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
             <p className="text-[#123A5A] text-lg font-semibold break-all">
               info@ameraafinnway.com
             </p>
-          </div>
+          </a>
           <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <MapPin className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">

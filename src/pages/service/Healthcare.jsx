@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Hospital, Activity, Stethoscope, Building2, Wrench, TestTube, Wallet, TrendingUp, FileText, User, MapPin, CheckCircle, ArrowRight } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 const Healthcare = () => {
   const [isVisible, setIsVisible] = useState({});
@@ -402,7 +403,7 @@ const Healthcare = () => {
             href="#contact"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:scale-110"
           >
-            <span>Start Your Healthcare Funding Journey</span>
+            <NavLink to='/apply'>Start Your Healthcare Funding Journey</NavLink>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

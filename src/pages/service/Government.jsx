@@ -1,5 +1,6 @@
 import React from 'react';
 import { Building, FileText, Shield, Wallet, TrendingUp, CheckCircle, User, MapPin, ArrowRight, DollarSign, Clock, Target, Award, Briefcase } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function Government() {
   const services = [
@@ -592,13 +593,13 @@ export default function Government() {
           <p className="text-lg text-[#3A3A3A] mb-8">
             Secure Bid Bonds, PBG, APG, Working Capital & Financial BGs for your next government tender.
           </p>
-          <a 
-            href="#contact"
+          <NavLink 
+            to="/apply"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:scale-110"
           >
             <span>Apply for Contractor Finance</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </NavLink>
         </div>
       </section>
     </div>

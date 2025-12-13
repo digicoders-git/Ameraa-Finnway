@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Building2, AlertCircle, Lightbulb, Trophy, CheckCircle, TrendingUp, ArrowRight, DollarSign, Calendar, Target } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function CaseStudies() {
   const [isVisible, setIsVisible] = useState({});
@@ -394,14 +395,14 @@ export default function CaseStudies() {
           <p className="text-xl text-[#A4C8E1] mb-8">
             Let us help you secure structured funding for your ambitious project
           </p>
-          <a 
-            href="#contact"
+          <NavLink 
+            to="/apply"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white font-semibold py-4 px-10 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
             aria-label="Discuss your project financing needs"
           >
             <span>Discuss Your Project</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-          </a>
+          </NavLink>
         </div>
       </section>
     </div>

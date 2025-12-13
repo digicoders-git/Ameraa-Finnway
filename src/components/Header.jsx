@@ -12,6 +12,7 @@ export default function Header() {
   const location = useLocation();
 
   const services = [
+    'Education Finance',
     'Manufacturing & Industrial Finance',
     'Healthcare Finance',
     'Hospitality Finance',
@@ -60,13 +61,13 @@ export default function Header() {
       <header className="bg-[#0A2740] text-white sticky top-0 z-50 shadow-lg">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:pl-20" aria-label="Main navigation">
           <div className="flex justify-between items-center h-20">
-            <div className="shrink-0">
+            <NavLink to='/' className="shrink-0">
               <img 
                 src={logo2} 
                 alt="Finance Advisory Logo" 
                 className="h-12 w-auto"
               />
-            </div>
+            </NavLink>
             
             <div className="hidden lg:flex items-center space-x-8">
               <NavLink to="/" className={({ isActive }) => `font-semibold hover:text-[#D4A537] transition-colors duration-200 ${isActive ? 'text-[#D4A537]' : ''}`}>Home</NavLink>

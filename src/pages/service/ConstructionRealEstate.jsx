@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Building2, Home, TrendingUp, CheckCircle, FileText, MapPin, Briefcase, ArrowRight, Shield, Clock, DollarSign, Target } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function ConstructionRealEstate() {
   const [isVisible, setIsVisible] = useState({});
@@ -459,14 +460,14 @@ export default function ConstructionRealEstate() {
           <p className="text-lg text-[#3A3A3A] mb-8">
             We help developers secure fast, stable, and high-value funding from leading banks.
           </p>
-          <a 
-            href="#contact"
+          <NavLink 
+            to="/apply"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:scale-110"
             aria-label="Apply for real estate finance"
           >
             <span>Apply for Real Estate Finance</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-          </a>
+          </NavLink>
         </div>
       </section>
     </div>

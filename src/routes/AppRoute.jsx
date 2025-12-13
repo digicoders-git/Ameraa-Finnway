@@ -10,6 +10,7 @@ import PrivacyAndPolicy from "../pages/PrivacyAndPolicy";
 import Process from "../pages/Process";
 import Sectors from "../pages/Sector";
 import ConstructionRealEstate from "../pages/service/ConstructionRealEstate";
+import EducationFinance from "../pages/service/EducationFinance";
 import Government from "../pages/service/Government";
 import GrowthAdvisory from "../pages/service/GrowthAdvisory";
 import Healthcare from "../pages/service/Healthcare";
@@ -35,5 +36,6 @@ const AppRoute = [
   {path: "/PrivacyAndPolicy", component:PrivacyAndPolicy, name:"PrivacyAndPolicy"},
   {path: "/terms-conditions", component:TermAndCondition, name:"TermAndCondition"},
   {path: "/disclaimer", component:Disclaimer, name:"Disclaimer"},
+  {path: "/education-finance", component:EducationFinance, name:"EducationFinance"},
 ]
 export default AppRoute;

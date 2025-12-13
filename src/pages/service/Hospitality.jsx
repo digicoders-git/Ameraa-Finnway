@@ -1,5 +1,6 @@
 import React from 'react';
 import { Hotel, Building2, Sofa, Rocket, Handshake, TrendingUp, CheckCircle, FileText, User, MapPin, ArrowRight, DollarSign, Clock, Target, Users } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function Hospitality() {
   const fundingCategories = [
@@ -503,13 +504,13 @@ export default function Hospitality() {
           <p className="text-lg text-[#3A3A3A] mb-8">
             Fast-track your hotel development, expansion, and franchise-based projects with structured financing from leading government banks.
           </p>
-          <a 
-            href="#contact"
+          <NavLink 
+            to="/apply"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:scale-110"
           >
             <span>Get Started</span>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </a>
+          </NavLink>
         </div>
       </section>
     </div>

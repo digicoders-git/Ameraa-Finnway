@@ -1,6 +1,7 @@
 import React from 'react';
 import { Target, TrendingUp, BarChart3, FileText, Settings, Megaphone, DollarSign, Package, FileCheck, Rocket, Lightbulb, CheckCircle, Award } from 'lucide-react';
 import BusinessTransformation from '../../components/home/BusinessTransformation';
+import { NavLink } from 'react-router-dom';
 
 const GrowthAdvisory = () => {
   const services = [
@@ -200,7 +201,7 @@ const GrowthAdvisory = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Business?</h2>
           <p className="text-lg mb-8 text-gray-200">Talk to our Growth Advisory experts and start building a future-ready, scalable and performance-driven company.</p>
-          <button className="bg-[#D4A537] hover:bg-[#C59230] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">👉 Book Strategy Session</button>
+          <NavLink to='/apply' className="bg-[#D4A537] hover:bg-[#C59230] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">👉 Book Strategy Session</NavLink>
         </div>
       </section>
     </div>

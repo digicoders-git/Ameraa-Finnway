@@ -1,5 +1,6 @@
 import React from 'react';
 import { Factory, Building2, Cog, Wrench, TrendingUp, Wallet, CheckCircle, FileText, User, MapPin, ArrowRight, DollarSign, Clock, Target, Package } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
 export default function Manufacturing() {
   const fundingCategories = [
@@ -521,7 +522,7 @@ export default function Manufacturing() {
             href="#contact"
             className="group inline-flex items-center gap-3 bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-md hover:shadow-xl hover:scale-110"
           >
-            <span>Apply for Manufacturing Finance</span>
+            <NavLink to='/apply'>Apply for Manufacturing Finance</NavLink>
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </div>

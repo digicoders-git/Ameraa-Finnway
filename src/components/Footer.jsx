@@ -11,6 +11,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import logo3 from "../assets/logo3.png";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   const quickLinks = [
@@ -26,6 +27,10 @@ export default function Footer() {
   ];
 
   const services = [
+    {
+      name: "Education Finance",
+      path: "/education-finance",
+    },
     {
       name: "Manufacturing & Industrial Finance",
       path: "/manufacturing-&-industrial-finance",
@@ -214,7 +219,7 @@ export default function Footer() {
               <a
                 className="hover:text-yellow-500"
                 target="_blank"
-                href="https://thedigicoders.com/"
+                href="https://digicoders.in/"
               >
                 #TeamDigiCoders
               </a>
@@ -238,11 +243,13 @@ export default function Footer() {
               >
                 Disclaimer
               </a>
-              <img
+              <NavLink to='/'>
+                <img
                 src={logo3}
                 alt="Ameraa Finnway Logo"
                 className="h-5 w-auto mb-4 object-contain"
               />
+              </NavLink>
             </div>
           </div>
         </div>
