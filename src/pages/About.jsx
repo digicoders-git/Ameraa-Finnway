@@ -335,7 +335,7 @@ export default function About() {
               </div>
               <div className="flex-1">
                 <h3 className="text-3xl md:text-4xl font-bold text-[#D4A537] mb-2">
-                  Vishal S. Kumar
+                  Vishhal S. Kumar
                 </h3>
                 <p className="text-xl text-white mb-4">
                   Founder, Ameraa Finnway – Lucknow, India

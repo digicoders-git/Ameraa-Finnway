@@ -33,6 +33,8 @@ import Loader from "../components/Loader";
 import { toast } from "react-toastify";
 import BusinessTransformation from "../components/home/BusinessTransformation";
 import { NavLink } from "react-router-dom";
+import ContactUs from "../components/home/ContactUs";
+import AboutUsC from "../components/home/AboutUsC";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -232,23 +234,38 @@ export default function Home() {
   const services = [
     {
       icon: Building2,
-      title: "Project Finance from Govt Banks",
-      desc: "High-value funding for capital-intensive projects",
-    },
-    {
-      icon: TrendingUp,
-      title: "Working Capital for Contractors",
-      desc: "Smooth cash flow for ongoing operations",
-    },
-    {
-      icon: BadgeCheck,
-      title: "Bank Guarantees & Support",
-      desc: "Institutional backing for your projects",
+      title: "Project Finance (Govt. Banks & Private Financiers)",
+      desc: "Structured high-value project funding through government banks, NBFCs, and leading private financial institutions.",
     },
     {
       icon: FileText,
-      title: "Advisory & Execution",
-      desc: "End-to-end guidance from docs to disbursement",
+      title: "Project Reports & Feasibility Studies",
+      desc: "Bank-ready DPRs, feasibility analysis, and financial viability reports to support funding approvals.",
+    },
+    {
+      icon: TrendingUp,
+      title: "Financial Planning & Forecasting",
+      desc: "Strategic financial models, cash-flow planning, and long-term forecasts for sustainable growth.",
+    },
+    {
+      icon: BadgeCheck,
+      title: "Investor Pitch Decks & Documentation",
+      desc: "Professional pitch decks, investment documents, and structured presentations for lenders and investors.",
+    },
+    {
+      icon: Award,
+      title: "Business Strategy & Expansion Planning",
+      desc: "Growth-oriented business strategies, expansion roadmaps, and market entry planning.",
+    },
+    {
+      icon: CheckCircle,
+      title: "Process Improvement & Compliance Support",
+      desc: "Operational efficiency improvement, regulatory compliance guidance, and risk management support.",
+    },
+    {
+      icon: Users,
+      title: "Branding, Market Positioning & Sales Advisory",
+      desc: "Brand development, market positioning, and sales & marketing advisory to drive customer acquisition.",
     },
   ];
 
@@ -458,25 +475,33 @@ export default function Home() {
       <main>
         <section
           id="hero"
-          className="-my-3 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20  overflow-hidden"
+          className="-my-3 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')] bg-cover bg-center"></div>
           </div>
+
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="scroll-animate">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
                   High-Value Project Finance from Leading Government Banks and
                   Private Finance
                 </h1>
+
+                {/* 🔹 ADDED LINE (ONLY THIS) */}
+                <p className="text-[#D4A537] font-semibold mb-4">
+                  Our funding starts from ₹20 Cr
+                </p>
+
                 <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
                   Project funding starting at ₹20 Crores for Education,
                   Manufacturing, Healthcare, Hospitality, Infrastructure Real
                   Estate, Renewable Energy, Hotels Projects — with fast
                   approvals and seamless processing.
                 </p>
+
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     onClick={() => scrollToSection("#apply")}
@@ -484,6 +509,7 @@ export default function Home() {
                   >
                     Apply Now <ArrowRight className="ml-2 w-5 h-5" />
                   </button>
+
                   <a
                     href="tel:+91 9592171057"
                     className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
@@ -504,6 +530,10 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <ContactUs />
+        <AboutUsC />
+
         <section className="bg-white py-8 border-b border-[#E2E2E2]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -540,9 +570,12 @@ export default function Home() {
                     {service.title}
                   </h3>
                   <p className="text-[#3A3A3A] mb-4">{service.desc}</p>
-                  <button className="text-[#D4A537] hover:text-[#C59230] font-semibold inline-flex items-center transition-all">
+                  <NavLink
+                    to="/contact"
+                    className="text-[#D4A537] hover:text-[#C59230] font-semibold inline-flex items-center transition-all"
+                  >
                     Learn More <ArrowRight className="ml-1 w-4 h-4" />
-                  </button>
+                  </NavLink>
                 </div>
               ))}
             </div>
@@ -593,13 +626,13 @@ export default function Home() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <NavLink
-                    to='/growth-advisory'
+                    to="/growth-advisory"
                     className="cursor-pointer inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
                   >
                     Explore Growth Advisory
                   </NavLink>
                   <NavLink
-                    to='/apply'
+                    to="/apply"
                     className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200"
                   >
                     Schedule a Consultation
