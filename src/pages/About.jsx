@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Building2, Target, Eye, Award, Users, MapPin, CheckCircle, TrendingUp, Briefcase, Shield, FileText, DollarSign } from 'lucide-react';
 import C1 from '../components/about/C1';
+import owner from '../assets/owner.png'
 
 
 export default function About() {
@@ -329,7 +330,8 @@ export default function About() {
           <div className="max-w-5xl mx-auto bg-white/5 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-white/10 hover:bg-white/10 transition-all duration-500">
             <div className="flex flex-col md:flex-row gap-8 items-center">
               <div className="w-48 h-48 bg-linear-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center shrink-0 animate-pulse-slow">
-                <Users className="w-24 h-24 text-white" />
+                {/* <Users className="w-24 h-24 text-white" /> */}
+                <img src={owner} className='rounded-full' alt="" />
               </div>
               <div className="flex-1">
                 <h3 className="text-3xl md:text-4xl font-bold text-[#D4A537] mb-2">

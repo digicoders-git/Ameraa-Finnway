@@ -39,7 +39,7 @@ export default function Footer() {
     { name: "Project Finance", path: "/project-finance" },
     {
       name: "Construction & Real Estate Finance",
-      path: "/construction-real-estate-finance",
+      path: "/construction-&-real-estate-finance",
     },
     // { name: 'Bank Guarantees (PBG, APG, Bid Bonds)', path: '/bank-guarantees' },
     // { name: 'Renewable Energy Project Finance', path: '/renewable-energy-finance' }
