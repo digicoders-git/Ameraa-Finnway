@@ -505,7 +505,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     onClick={() => scrollToSection("#apply")}
-                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
+                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105 cursor-pointer"
                   >
                     Apply Now <ArrowRight className="ml-2 w-5 h-5" />
                   </button>
@@ -627,7 +627,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <NavLink
                     to="/growth-advisory"
-                    className="cursor-pointer inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105"
+                    className="cursor-pointer inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-200 hover:scale-105 cursor-pointer"
                   >
                     Explore Growth Advisory
                   </NavLink>
@@ -646,7 +646,7 @@ export default function Home() {
                     {
                       icon: DollarSign,
                       title: "Funding Range",
-                      value: "₹20 Cr - ₹100 Cr+",
+                      value: "₹20 Cr - ₹200 Cr+",
                       desc: "High-value institutional capital",
                     },
                     {
@@ -870,7 +870,7 @@ export default function Home() {
                 >
                   <button
                     onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
-                    className="w-full flex items-center justify-between p-6 text-left hover:bg-[#F8F9FB]/80 transition-colors"
+                    className="w-full flex items-center justify-between p-6 text-left hover:bg-[#F8F9FB]/80 transition-colors cursor-pointer"
                     aria-expanded={openFaq === idx}
                     aria-label={`Toggle answer for: ${faq.q}`}
                   >
@@ -1232,7 +1232,7 @@ export default function Home() {
                   <div className="flex gap-4 items-center">
                     <button
                       type="submit"
-                      className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2"
+                      className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2 cursor-pointer"
                       disabled={succesLoad}
                     >
                       {succesLoad && <Loader size="sm" />}

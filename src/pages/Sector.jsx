@@ -271,14 +271,14 @@ export default function Sectors() {
                   </div>
 
                   <div className="mt-6 pt-6 border-t border-gray-200">
-                    <a 
-                      href={`#contact`}
-                      className="group inline-flex items-center gap-2 text-[#D4A537] font-semibold hover:gap-4 transition-all duration-300"
+                    <NavLink 
+                      to='/contact'
+                      className="group inline-flex items-center gap-2 text-[#D4A537] font-semibold hover:gap-4 transition-all duration-300 cursor-pointer"
                       aria-label={`Learn more about ${sector.title} funding`}
                     >
                       <span>Learn More</span>
                       <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </article>

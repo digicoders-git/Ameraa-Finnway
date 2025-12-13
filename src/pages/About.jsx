@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Building2, Target, Eye, Award, Users, MapPin, CheckCircle, TrendingUp, Briefcase, Shield, FileText, DollarSign } from 'lucide-react';
 import C1 from '../components/about/C1';
 import owner from '../assets/owner.png'
+import { NavLink } from 'react-router-dom';
 
 
 export default function About() {
@@ -266,7 +267,7 @@ export default function About() {
       <div className="text-center">
         <a 
           href="/growth-advisory"
-          className="inline-block bg-[#D4A537] hover:bg-[#C59230] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
+          className="inline-block bg-[#D4A537] hover:bg-[#C59230] text-white font-semibold px-8 py-4 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer"
         >
           Learn More →
         </a>
@@ -507,9 +508,9 @@ export default function About() {
           <p className="text-xl text-[#A4C8E1] mb-8">
             Partner with India's trusted project finance advisory for structured funding from ₹20 Cr to ₹100 Cr+
           </p>
-          <button className="bg-[#D4A537] hover:bg-[#C59230] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110">
+          <NavLink to="/contact" className="bg-[#D4A537] hover:bg-[#C59230] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110 cursor-pointer">
             Get Started Today
-          </button>
+          </NavLink>
         </div>
       </section>
     </div>

@@ -315,7 +315,7 @@ const Healthcare = () => {
 
             <div className="bg-linear-to-r from-[#0A2740] to-[#123A5A] rounded-2xl p-8 text-center">
               <p className="text-white text-lg leading-relaxed">
-                <span className="text-[#D4A537] font-bold">Is se bank ko confidence milta hai aur approval speed multiply ho jati hai.</span>
+                <span className="text-[#D4A537] font-bold">This gives confidence to the bank and multiplies the approval speed.</span>
               </p>
             </div>
           </div>

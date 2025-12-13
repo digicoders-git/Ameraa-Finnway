@@ -462,7 +462,7 @@ const Apply = () => {
             <div className="flex gap-4 items-center">
               <button
                 type="submit"
-                className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2"
+                className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2 cursor-pointer"
                 disabled={succesLoad}
               >
                 {succesLoad && <Loader size="sm" />}

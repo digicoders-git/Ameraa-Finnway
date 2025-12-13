@@ -109,7 +109,7 @@ const ContactUs = () => {
                   </div>
 
                   {/* Quick CTA */}
-                  <div className="mt-4 pt-4 border-t border-[#D4A537] border-opacity-20 text-center">
+                  {/* <div className="mt-4 pt-4 border-t border-[#D4A537] border-opacity-20 text-center">
                     <p className="text-sm text-[#123A5A] mb-2">
                       <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2"></span>
                       Available for consultation
@@ -117,7 +117,7 @@ const ContactUs = () => {
                     <p className="text-xs text-[#3A3A3A]">
                       Mon - Sat: 9:00 AM - 7:00 PM IST
                     </p>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Quote */}
@@ -129,7 +129,11 @@ const ContactUs = () => {
                     <p className="text-[#D4A537] font-semibold text-lg italic pt-2">
                       To empower ambitious businesses by making large-scale
                       funding accessible, reliable, and growth-driven.
+                      <span className=" text-4xl text-[#D4A537] leading-none">
+                      "
+                    </span>
                     </p>
+                    
                   </div>
                 </div>
               </div>

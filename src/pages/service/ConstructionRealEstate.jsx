@@ -227,7 +227,7 @@ export default function ConstructionRealEstate() {
             We provide end-to-end funding solutions for residential, commercial, and mixed-use real estate developments.
           </p>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
-            Our expertise covers term loans, construction finance, bridge financing, and working capital support for projects ranging from <span className="text-[#D4A537] font-semibold">₹5 Crore to ₹100 Crore+</span>.
+            Our expertise covers term loans, construction finance, bridge financing, and working capital support for projects ranging from <span className="text-[#D4A537] font-semibold">₹20 Crore to ₹200 Crore+</span>.
           </p>
         </div>
       </section>

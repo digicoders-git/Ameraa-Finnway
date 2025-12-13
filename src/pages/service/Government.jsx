@@ -422,7 +422,7 @@ export default function Government() {
 
             <div className="bg-linear-to-r from-[#0A2740] to-[#123A5A] rounded-2xl p-8 text-center">
               <p className="text-white text-lg leading-relaxed">
-                <span className="text-[#D4A537] font-bold">Is expertise ke wajah se banks aur NBFCs contractors par trust build karte hain.</span>
+                <span className="text-[#D4A537] font-bold">Because of this expertise, banks and MFCS build trust in contractors.</span>
               </p>
             </div>
           </div>
