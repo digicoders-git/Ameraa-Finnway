@@ -3,6 +3,7 @@ import { Menu, X, ChevronDown } from 'lucide-react';
 import { NavLink, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.jpg'
 import { RiMenu4Line } from 'react-icons/ri';
+import logo2 from '../assets/logo3.png'
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -11,11 +12,11 @@ export default function Header() {
   const location = useLocation();
 
   const services = [
-    'Construction & Real Estate Finance',
-    'Growth Advisory',
+    'Manufacturing & Industrial Finance',
     'Healthcare Finance',
     'Hospitality Finance',
-    'Manufacturing & Industrial Finance',
+    'Construction & Real Estate Finance',
+    'Growth Advisory',
     'Government Contractors & Bank Guarantees'
   ];
 
@@ -61,7 +62,7 @@ export default function Header() {
           <div className="flex justify-between items-center h-20">
             <div className="shrink-0">
               <img 
-                src={logo} 
+                src={logo2} 
                 alt="Finance Advisory Logo" 
                 className="h-12 w-auto"
               />
@@ -107,7 +108,7 @@ export default function Header() {
                 to="/apply" 
                 className="bg-[#D4A537] text-white px-6 py-3 rounded-lg hover:bg-[#C29530] transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-[#D4A537] focus:ring-offset-2 focus:ring-offset-[#0A2740]"
               >
-                Apply
+                Apply Now
               </NavLink>
               <NavLink 
                 to="/contact" 
@@ -163,7 +164,7 @@ export default function Header() {
                 to="/apply" 
                 className="bg-[#D4A537] text-white px-6 py-3 rounded-lg hover:bg-[#C29530] transition-colors duration-200 font-semibold focus:outline-none focus:ring-2 focus:ring-[#D4A537] focus:ring-offset-2 focus:ring-offset-[#0A2740] text-center"
               >
-                Apply
+                Apply Now
               </NavLink>
                 <NavLink 
                   to="/contact" 

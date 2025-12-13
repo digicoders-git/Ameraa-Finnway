@@ -1,5 +1,6 @@
 import React from 'react';
 import { Target, TrendingUp, BarChart3, FileText, Settings, Megaphone, DollarSign, Package, FileCheck, Rocket, Lightbulb, CheckCircle, Award } from 'lucide-react';
+import BusinessTransformation from '../../components/home/BusinessTransformation';
 
 const GrowthAdvisory = () => {
   const services = [
@@ -135,7 +136,7 @@ const GrowthAdvisory = () => {
           <p className="text-lg text-[#0A2740] font-semibold mt-8">Our advisory ensures your business becomes future-proof, competitive and performance-led.</p>
         </div>
       </section>
-
+<BusinessTransformation />
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12">Why Businesses Choose Our Growth Advisory</h2>

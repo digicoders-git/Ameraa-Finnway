@@ -26,6 +26,34 @@ export default function Sectors() {
 
   const sectors = [
     {
+      id: 'education',
+      icon: <GraduationCap className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
+      title: "Schools & Educational Institutions",
+      shortTitle: "Education Sector",
+      description: "We enable educational institutions to secure large-scale funding for campuses, hostels, academic buildings, and infrastructure enhancement.",
+      bullets: [
+        "School campus construction",
+        "College & university infrastructure",
+        "Hostel and academic facility funding",
+        "Expansion of existing educational institutions"
+      ],
+      gradient: "from-yellow-50 to-orange-50"
+    },
+    {
+      id: 'manufacturing',
+      icon: <Factory className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
+      title: "Industrial & Manufacturing Units",
+      shortTitle: "Manufacturing Sector",
+      description: "Manufacturing enterprises depend on us for end-to-end funding support—covering plant setup, machinery finance, factory expansion, and industrial infrastructure projects.",
+      bullets: [
+        "New industrial plant setup",
+        "Unit expansion & modernization",
+        "Machinery procurement finance",
+        "Working capital & capex loans"
+      ],
+      gradient: "from-green-50 to-emerald-50"
+    },
+    {
       id: 'healthcare',
       icon: <Hospital className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
       title: "Healthcare & Hospitals",
@@ -54,48 +82,6 @@ export default function Sectors() {
       gradient: "from-orange-50 to-amber-50"
     },
     {
-      id: 'real-estate',
-      icon: <Building2 className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
-      title: "Residential & Commercial Real Estate",
-      shortTitle: "Real Estate Sector",
-      description: "We support real estate developers with large-ticket construction finance, commercial project funding, and structured development loans.",
-      bullets: [
-        "Residential towers, gated projects & townships",
-        "Commercial complexes, business centers & malls",
-        "Developer funding, term loans & construction finance",
-        "Land acquisition & project development"
-      ],
-      gradient: "from-blue-50 to-cyan-50"
-    },
-    {
-      id: 'manufacturing',
-      icon: <Factory className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
-      title: "Industrial & Manufacturing Units",
-      shortTitle: "Manufacturing Sector",
-      description: "Manufacturing enterprises depend on us for end-to-end funding support—covering plant setup, machinery finance, factory expansion, and industrial infrastructure projects.",
-      bullets: [
-        "New industrial plant setup",
-        "Unit expansion & modernization",
-        "Machinery procurement finance",
-        "Working capital & capex loans"
-      ],
-      gradient: "from-green-50 to-emerald-50"
-    },
-    {
-      id: 'education',
-      icon: <GraduationCap className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
-      title: "Schools & Educational Institutions",
-      shortTitle: "Education Sector",
-      description: "We enable educational institutions to secure large-scale funding for campuses, hostels, academic buildings, and infrastructure enhancement.",
-      bullets: [
-        "School campus construction",
-        "College & university infrastructure",
-        "Hostel and academic facility funding",
-        "Expansion of existing educational institutions"
-      ],
-      gradient: "from-yellow-50 to-orange-50"
-    },
-    {
       id: 'infrastructure',
       icon: <Construction className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
       title: "Infrastructure & EPC Contractors",
@@ -108,6 +94,20 @@ export default function Sectors() {
         "Machinery & working capital support"
       ],
       gradient: "from-purple-50 to-pink-50"
+    },
+    {
+      id: 'real-estate',
+      icon: <Building2 className="w-12 h-12 text-[#D4A537]" aria-hidden="true" />,
+      title: "Residential & Commercial Real Estate",
+      shortTitle: "Real Estate Sector",
+      description: "We support real estate developers with large-ticket construction finance, commercial project funding, and structured development loans.",
+      bullets: [
+        "Residential towers, gated projects & townships",
+        "Commercial complexes, business centers & malls",
+        "Developer funding, term loans & construction finance",
+        "Land acquisition & project development"
+      ],
+      gradient: "from-blue-50 to-cyan-50"
     },
     {
       id: 'renewable-energy',

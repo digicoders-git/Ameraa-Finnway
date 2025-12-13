@@ -30,6 +30,7 @@ import axios from "axios";
 // import "./Apply.css";
 import Loader from "../components/Loader";
 import { toast } from "react-toastify";
+import BusinessTransformation from "../components/home/BusinessTransformation";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -316,59 +317,68 @@ export default function Home() {
   ];
 
   const caseStudies = [
-    {
+  {
+    title: "Hotel Construction – Premium Hospitality Project",
+    amount: "₹30 Cr Sanctioned",
+    location: "Ayodhya",
+    desc: "Structured funding for a new hotel project with phased construction-linked disbursement."
+  },
+  {
+    title: "Hotel Development – High-End Urban Property",
+    amount: "₹70 Cr Approved",
+    location: "Mumbai",
+    desc: "Large-ticket hospitality finance with blended structure for construction & pre-opening expenses."
+  },
+  {
+    title: "Rice Mill – Industrial Processing Unit",
+    amount: "₹35 Cr Funding",
+    location: "Hyderabad",
+    desc: "CAPEX financing for machinery, plant setup and operational working capital."
+  },
+  {
     title: "Education Campus – New School Infrastructure",
-    amount: "₹28 Cr Approved",
-    desc: "Funding structured for classrooms, labs & hostel with long-tenure repayment.",
+    amount: "₹35 Cr Approved",
+    location: "Lucknow",
+    desc: "Funding for academic blocks, labs, student facilities and long-tenure repayment structure."
   },
   {
-    title: "Manufacturing Unit – Industrial Plant Setup",
-    amount: "₹52 Cr Sanctioned",
-    desc: "CAPEX + machinery finance with working capital line for operations.",
+    title: "Oil Manufacturing Plant – Large Industrial Unit",
+    amount: "₹100 Cr Sanctioned",
+    location: "Indore",
+    desc: "End-to-end financing including machinery procurement, plant construction and utilities setup."
   },
   {
-    title: "Hospital Expansion – Multi-Specialty Unit",
-    amount: "₹45 Cr Sanctioned",
-    desc: "Sanction received in 3 months including equipment finance & phased construction disbursement.",
+    title: "Hotel Project – Hospitality Expansion",
+    amount: "₹22 Cr Funding",
+    location: "Motihari, Bihar",
+    desc: "Construction finance for mid-scale hotel with revenue-backed repayment modeling."
   },
   {
-    title: "Healthcare – Diagnostics & Imaging Centre",
-    amount: "₹18 Cr Funding",
-    desc: "Structured loan for high-end medical equipment & facility expansion.",
+    title: "Real Estate – Commercial/Residential Development",
+    amount: "₹85 Cr Sanctioned",
+    location: "Bangalore",
+    desc: "High-value real estate development funding with milestone-based disbursement."
   },
   {
-    title: "Hospitality – Resort Expansion & Renovation",
-    amount: "₹38 Cr Sanctioned",
-    desc: "Upgrade, new block development & revenue-backed financing.",
+    title: "Real Estate – Mixed-Use Development",
+    amount: "₹35 Cr Approved",
+    location: "Ranchi",
+    desc: "Construction-linked term loan with structured financial planning for timely execution."
   },
   {
-    title: "Real Estate Commercial Tower – Grade A Project",
-    amount: "₹70 Cr Funding",
-    desc: "Govt Bank + NBFC blended structure with milestone-based release for construction.",
+    title: "Mega Infrastructure Project",
+    amount: "₹500 Cr (Ongoing)",
+    location: "Bangalore",
+    desc: "Large-scale infra financing including EPC, working capital & BG support under execution."
   },
   {
-    title: "Manufacturing Unit – Industrial Plant Setup",
-    amount: "₹52 Cr Sanctioned",
-    desc: "CAPEX + machinery finance with working capital line for operations.",
-  },
-  
-  {
-    title: "Hospitality – 4-Star Hotel Development",
-    amount: "₹60 Cr Approved",
-    desc: "Project finance covering construction, FF&E and pre-opening expenses.",
-  },
-  {
-    title: "Infrastructure – EPC Road Construction Project",
-    amount: "₹90 Cr Structured",
-    desc: "Working capital + BG support for multi-phase government project execution.",
-  },
-  {
-    title: "Renewable Energy – Solar Power Plant (IPP)",
-    amount: "₹75 Cr Funding",
-    desc: "Project finance for 12MW solar setup including land, EPC & grid connectivity.",
-  },
-  
+    title: "Commercial Infrastructure Development",
+    amount: "₹200 Cr (Ongoing)",
+    location: "Agra",
+    desc: "Structured project finance for multi-phase commercial development with on-ground support."
+  }
 ];
+
 
 
   const testimonials = [
@@ -682,7 +692,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-
+<BusinessTransformation />
         <section id="process" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
@@ -759,8 +769,8 @@ export default function Home() {
                   <h3 className="text-xl font-bold text-[#0A2740] mb-2">
                     {study.title}
                   </h3>
-                  {/* <p className="text-[#D4A537] font-semibold mb-2">{study.amount}</p>
-                  <p className="text-[#3A3A3A]">{study.desc}</p> */}
+                  <p className="text-[#D4A537] font-semibold mb-2">{study.amount}</p>
+                  {/* <p className="text-[#3A3A3A]">{study.desc}</p> */}
                 </div>
               ))}
             </div>
