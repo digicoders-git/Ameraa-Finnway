@@ -8,7 +8,7 @@ const BusinessTransformation = () => {
       <section className="bg-[#F8F9FB] py-20 scroll-animate">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Section Header */}
-          <div className="text-center mb-16">
+          {/* <div className="text-center mb-16">
             <h2 className="text-[#0A2740] text-4xl md:text-5xl font-bold mb-4 animate-fade-in-down">
               Integrated Framework for Business Transformation
             </h2>
@@ -18,10 +18,10 @@ const BusinessTransformation = () => {
               excellence.
             </p>
             <div className="w-24 h-1 bg-[#D4A537] mx-auto animate-scale-in animation-delay-400"></div>
-          </div>
+          </div> */}
 
           {/* Main Overview */}
-          <div className="max-w-4xl mx-auto mb-12">
+          {/* <div className="max-w-4xl mx-auto mb-12">
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-l-4 border-[#D4A537] animate-fade-in animation-delay-600">
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-4">
                 At Ameraa Finnway, we follow a deeply integrated approach that
@@ -36,7 +36,7 @@ const BusinessTransformation = () => {
                 growth.
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Main Graphic Container */}
           <div className="relative mb-16">
@@ -79,8 +79,7 @@ const BusinessTransformation = () => {
           </div>
 
           {/* 3 Pillars of Transformation */}
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {/* Pillar 1 - Strategic Consulting */}
+          {/* <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-blue-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-fade-in animation-delay-800">
               <div className="h-2 bg-gradient-to-r from-blue-500 to-blue-600"></div>
               <div className="p-8">
@@ -137,7 +136,6 @@ const BusinessTransformation = () => {
               </div>
             </div>
 
-            {/* Pillar 2 - Capital Formation */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-green-100 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-fade-in animation-delay-1000">
               <div className="h-2 bg-gradient-to-r from-green-500 to-green-600"></div>
               <div className="p-8">
@@ -194,7 +192,6 @@ const BusinessTransformation = () => {
               </div>
             </div>
 
-            {/* Pillar 3 - Operational Excellence */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 animate-fade-in animation-delay-1200">
               <div className="h-2 bg-gradient-to-r from-gray-500 to-gray-600"></div>
               <div className="p-8">
@@ -250,7 +247,7 @@ const BusinessTransformation = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* CTA Section */}
           <div className="text-center animate-fade-in animation-delay-1400">

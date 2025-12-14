@@ -342,7 +342,7 @@ export default function About() {
                   Founder, Ameraa Finnway – Lucknow, India
                 </p>
                 <p className="text-[#A4C8E1] leading-relaxed mb-6">
-                  With more than 20 years of financial expertise, Vishal S Kumar is a recognized advisor in the space of project funding, construction finance, institutional lending, and government bank loan structuring.
+                  With more than 20 years of financial expertise, Vishhal S Kumar is a recognized advisor in the space of project funding, construction finance, institutional lending, and government bank loan structuring.
                 </p>
                 <div className="space-y-3">
                   {[

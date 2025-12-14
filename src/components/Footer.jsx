@@ -11,6 +11,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import logo3 from "../assets/logo3.png";
+import logo from '../assets/logo.jpg'
 import { NavLink } from "react-router-dom";
 
 export default function Footer() {
@@ -69,8 +70,7 @@ export default function Footer() {
               AMERAA FINNWAY
             </h3>
             <p className=" text-gray-300 mb-6 leading-relaxed">
-              A premier project finance advisory specializing in ₹20 Cr – ₹100
-              Cr+ government bank funding for Real Estate, Hospitals, Hotels,
+              A premier project finance advisory specializing in 15 Cr. and Above government bank funding for Real Estate, Hospitals, Hotels,
               Education Institutions, Infrastructure & Industrial projects.
               PAN-India presence with 20+ years of financial expertise.
             </p>
@@ -141,13 +141,13 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:info@ameraafinnway.com"
+                href="mailto:vishal@ameraafinnway.co"
                 className="flex items-start gap-2 text-sm hover:text-[#A4C8E1] transition-colors duration-200"
               >
                 <Mail className="w-5 h-5 text-[#D4A537] shrink-0 mt-0.5" />
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div>info@ameraafinnway.com</div>
+                  <div>vishal@ameraafinnway.co</div>
                 </div>
               </a>
 
@@ -224,30 +224,30 @@ export default function Footer() {
                 #TeamDigiCoders
               </a>
             </div>
-            <div className="flex flex-wrap justify-center gap-6">
-              <a
-                href="/PrivacyAndPolicy"
+            <div className="flex flex-wrap items-center justify-center gap-6">
+              <NavLink
+                to="/PrivacyAndPolicy"
                 className="text-white hover:text-[#D4A537] transition-colors duration-200"
               >
                 Privacy Policy
-              </a>
-              <a
-                href="/terms-conditions"
+              </NavLink>
+              <NavLink
+                to="/terms-conditions"
                 className="text-white hover:text-[#D4A537] transition-colors duration-200"
               >
                 Terms & Conditions
-              </a>
-              <a
-                href="/disclaimer"
+              </NavLink>
+              <NavLink
+                to="/disclaimer"
                 className="text-white hover:text-[#D4A537] transition-colors duration-200"
               >
                 Disclaimer
-              </a>
+              </NavLink>
               <NavLink to='/'>
                 <img
-                src={logo3}
+                src={logo}
                 alt="Ameraa Finnway Logo"
-                className="h-5 w-auto mb-4 object-contain"
+                className="h-10 w-auto mb-4 object-contain shadow-[0_0_20px_rgba(255,255,255,0.3)]"
               />
               </NavLink>
             </div>

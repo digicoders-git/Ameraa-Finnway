@@ -201,7 +201,7 @@ export default function Contact() {
           <p className="text-[#A4C8E1] text-xl max-w-3xl mx-auto text-center mt-6 animate-fade-in-up animation-delay-400">
             Whether you're building a hospital, hotel, real estate tower,
             industrial plant, or government project, our experts will help you
-            secure ₹20 Cr – ₹100 Cr+ institutional funding from top government
+            secure ₹15 Cr. and Above institutional funding from top government
             banks & NBFCs.
           </p>
         </div>
@@ -267,12 +267,12 @@ export default function Contact() {
               Available Mon–Sat, 10AM–7PM
             </p>
           </a>
-          <a href="mailto:info@ameraafinnway.com" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          <a href="mailto:vishal@ameraafinnway.co" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Mail className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Email</h3>
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
             <p className="text-[#123A5A] text-lg font-semibold break-all">
-              info@ameraafinnway.com
+              vishal@ameraafinnway.co
             </p>
           </a>
           <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
@@ -644,14 +644,14 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              <div className="flex gap-4 items-center">
+              <div className="flex flex-col gap-4 items-center">
                 <button
                   type="submit"
                   className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2 cursor-pointer"
                   disabled={succesLoad}
                 >
                   {succesLoad && <Loader size="sm" />}
-                  Submit Project for Review
+                  Submit{succesLoad && 'ing'} Project for Review
                 </button>
                 <div className="text-xl text-red-500 font-semibold">
                   {error && error}
@@ -679,7 +679,7 @@ export default function Contact() {
               "PAN India Execution Capability",
               "Strong Network of Govt Banks & NBFCs",
               "Fast Approvals With Structured Documentation",
-              "Funding from ₹20 Cr – ₹100 Cr+",
+              "Funding from ₹15 Cr. and Above",
             ].map((item, idx) => (
               <div
                 key={idx}

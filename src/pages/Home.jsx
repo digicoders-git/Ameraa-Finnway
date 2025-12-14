@@ -227,7 +227,7 @@ export default function Home() {
   const stats = [
     { icon: Award, label: "20+ Years", sublabel: "Expertise" },
     { icon: MapPin, label: "PAN-India", sublabel: "Presence" },
-    { icon: DollarSign, label: "₹20 Cr - ₹100 Cr+", sublabel: "Funding" },
+    { icon: DollarSign, label: "₹15 Cr. and Above", sublabel: "Funding" },
     { icon: Users, label: "40+ Institutional", sublabel: "Partners" },
   ];
 
@@ -297,7 +297,7 @@ export default function Home() {
     "Strong Network of Govt Banks, NBFCs & Private Financiers",
     "Fast Approvals & Expert Structuring",
     "PAN-India Presence & On-ground Support",
-    "High-Value Funding: ₹20 Cr to ₹100 Cr+",
+    "High-Value Funding: ₹15 Cr. and Above",
     "End-to-End Advisory: From Documentation to Disbursement",
     "Customized Funding Solutions for Each Sector",
   ];
@@ -475,7 +475,7 @@ export default function Home() {
       <main>
         <section
           id="hero"
-          className="-my-3 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 overflow-hidden"
+          className="-my-15 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')] bg-cover bg-center"></div>
@@ -595,7 +595,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="grid md:grid-cols-1 gap-12 items-center">
               <div>
                 <p className="text-[#123A5A] text-lg leading-relaxed mb-6">
                   At{" "}
@@ -610,7 +610,7 @@ export default function Home() {
                   customers—consistently and confidently.
                 </p>
 
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3 mb-8 ">
                   {[
                     "High-value institutional funding across India",
                     "Business strategy & data intelligence for expansion",
@@ -640,7 +640,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-white p-8 rounded-xl shadow-lg border border-[#E2E2E2]">
+              {/* <div className="bg-white p-8 rounded-xl shadow-lg border border-[#E2E2E2]">
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     {
@@ -692,7 +692,7 @@ export default function Home() {
                     <span>40+ Institutional Partners</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -776,7 +776,7 @@ export default function Home() {
             <div className="max-w-3xl mx-auto">
               <div className="bg-white p-8 rounded-lg border-2 border-[#D4A537] mb-6 scroll-animate">
                 <h3 className="text-2xl font-bold text-[#0A2740] mb-4">
-                  ₹20 Cr – ₹100 Cr+ Project Funding
+                  ₹15 Cr and Above Project Funding
                 </h3>
                 <ul className="space-y-3">
                   {[
@@ -1229,14 +1229,14 @@ export default function Home() {
                     ></textarea>
                   </div>
 
-                  <div className="flex gap-4 items-center">
+                  <div className="flex flex-col gap-4 items-center">
                     <button
                       type="submit"
                       className="bg-[#D4A537] text-white font-semibold py-4 px-8 rounded-lg text-lg w-full md:w-auto flex items-center justify-center gap-2 cursor-pointer"
                       disabled={succesLoad}
                     >
                       {succesLoad && <Loader size="sm" />}
-                      Submit Project for Review
+                      Submit{succesLoad && 'ing'} Project for Review
                     </button>
                     <div className="text-xl text-red-500 font-semibold">
                       {error && error}

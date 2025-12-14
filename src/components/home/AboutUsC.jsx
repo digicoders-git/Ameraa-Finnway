@@ -77,17 +77,17 @@ const AboutUsC = () => {
   ];
 
   const industries = [
-    { icon: Building2, name: "Real Estate & Commercial Development" },
-    { icon: Hospital, name: "Healthcare & Hospital Infrastructure" },
-    { icon: Hotel, name: "Hospitality & Hotel Projects" },
     { icon: GraduationCap, name: "Education Institutions & Campuses" },
     { icon: Factory, name: "Manufacturing & Industrial Units" },
+    { icon: Hospital, name: "Healthcare & Hospital Infrastructure" },
+    { icon: Hotel, name: "Hospitality & Hotel Projects" },
+    { icon: Building2, name: "Real Estate & Commercial Development" },
     { icon: Construction, name: "Infrastructure & Government Contractor Projects" },
     { icon: Zap, name: "Renewable Energy (Solar & Wind)" },
   ];
 
   const whyUs = [
-    "Expertise in high-value funding (₹20 Cr and above)",
+    "Expertise in high-value funding (₹15 Cr. and above)",
     "Strong relationships with government banks and institutional lenders",
     "A structured, professional, and compliance-driven approach",
     "End-to-end support from strategy to disbursement",

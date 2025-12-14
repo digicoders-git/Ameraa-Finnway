@@ -260,7 +260,7 @@ export default function Hospitality() {
           </div>
 
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed mb-6">
-            Ameraa Finnway specializes in structuring <span className="text-[#D4A537] font-semibold">₹5 Cr – ₹100 Cr+</span> funding for hotel developers, resort owners, and hospitality chains.
+            Ameraa Finnway specializes in structuring <span className="text-[#D4A537] font-semibold">15 Cr. and Above</span> funding for hotel developers, resort owners, and hospitality chains.
           </p>
 
           <div className="max-w-3xl mx-auto bg-[#F8F9FB] rounded-xl p-6 border-l-4 border-[#D4A537]">
@@ -475,7 +475,7 @@ export default function Hospitality() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="group hover:scale-110 transition-transform duration-300">
               <DollarSign className="w-12 h-12 text-[#D4A537] mx-auto mb-3" />
-              <div className="text-4xl font-bold text-[#D4A537] mb-2">₹5-100Cr+</div>
+              <div className="text-4xl font-bold text-[#D4A537] mb-2">15 Cr. and Above</div>
               <div className="text-white text-lg">Funding Range</div>
             </div>
             <div className="group hover:scale-110 transition-transform duration-300">

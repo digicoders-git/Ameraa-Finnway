@@ -63,9 +63,9 @@ export default function Header() {
           <div className="flex justify-between items-center h-20">
             <NavLink to='/' className="shrink-0">
               <img 
-                src={logo2} 
+                src={logo} 
                 alt="Finance Advisory Logo" 
-                className="h-12 w-auto"
+                className="h-12 w-auto shadow-[0_0_20px_rgba(255,255,255,0.4)]"
               />
             </NavLink>
             

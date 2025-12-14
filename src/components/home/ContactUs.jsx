@@ -32,7 +32,7 @@ const ContactUs = () => {
                   Founder, Ameraa Finnway – Lucknow, India
                 </p>
                 <p className="text-[#3A3A3A] leading-relaxed mb-6">
-                  With more than 20 years of financial expertise, Vishal S Kumar
+                  With more than 20 years of financial expertise, Vishhal S. Kumar
                   is a recognized advisor in the space of project funding,
                   construction finance, institutional lending, and government
                   bank loan structuring.
@@ -72,7 +72,7 @@ const ContactUs = () => {
 
                     {/* Email */}
                     <a
-                      href="mailto:VISHHAL@ameraafinnone"
+                      href="mailto:vishal@ameraafinnway.co"
                       className="bg-white p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
                     >
                       <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const ContactUs = () => {
                             Email Us
                           </p>
                           <p className="font-bold text-[#0A2740] group-hover:text-[#D4A537] transition-colors truncate">
-                            VISHHAL@ameraafinnone
+                            vishal@ameraafinnway.co
                           </p>
                         </div>
                       </div>

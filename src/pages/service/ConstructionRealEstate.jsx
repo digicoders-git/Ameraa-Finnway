@@ -227,7 +227,7 @@ export default function ConstructionRealEstate() {
             We provide end-to-end funding solutions for residential, commercial, and mixed-use real estate developments.
           </p>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
-            Our expertise covers term loans, construction finance, bridge financing, and working capital support for projects ranging from <span className="text-[#D4A537] font-semibold">₹20 Crore to ₹200 Crore+</span>.
+            Our expertise covers term loans, construction finance, bridge financing, and working capital support for projects ranging from <span className="text-[#D4A537] font-semibold">₹15 Cr. and Above</span>.
           </p>
         </div>
       </section>
@@ -430,7 +430,7 @@ export default function ConstructionRealEstate() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="group hover:scale-110 transition-transform duration-300">
               <DollarSign className="w-12 h-12 text-[#D4A537] mx-auto mb-3" aria-hidden="true" />
-              <div className="text-4xl font-bold text-[#D4A537] mb-2">₹5-100Cr+</div>
+              <div className="text-4xl font-bold text-[#D4A537] mb-2">₹15 Cr. and Above</div>
               <div className="text-white text-lg">Funding Range</div>
             </div>
             <div className="group hover:scale-110 transition-transform duration-300">

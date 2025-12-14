@@ -29,7 +29,7 @@ export default function CaseStudies() {
     id: 'lucknow-hospital',
     title: 'Greenfield Multi-Specialty Hospital – Lucknow',
     sector: 'Healthcare',
-    funding: '₹35 Crore',
+    funding: '₹15 Cr. and Above',
     client: 'Confidential Healthcare Promoter',
     overview: 'A 150-bed multi-specialty greenfield hospital planned in Lucknow, featuring emergency care, diagnostics, critical care units, and advanced surgical facilities. The promoter required term loan + equipment finance + working capital to initiate construction and operations.',
     challenges: [
@@ -42,7 +42,7 @@ export default function CaseStudies() {
     solutions: [
       {
         title: 'Matched with the suitable government bank',
-        description: 'Identified a nationalised bank that supports healthcare infrastructure with higher ticket size (₹25–50 Cr+).'
+        description: 'Identified a nationalised bank that supports healthcare infrastructure with higher ticket size (₹15 Cr. and Above).'
       },
       {
         title: 'Structured phased disbursement model',
@@ -66,7 +66,7 @@ export default function CaseStudies() {
     results: [
       {
         icon: <DollarSign className="w-6 h-6" aria-hidden="true" />,
-        label: '₹35 Cr sanction received within 45 days'
+        label: '₹15 Cr sanction received within 45 days'
       },
       {
         icon: <CheckCircle className="w-6 h-6" aria-hidden="true" />,
@@ -174,7 +174,7 @@ export default function CaseStudies() {
           </h2>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
             With over <span className="text-[#D4A537] font-semibold">20 years of expertise</span>, we've helped businesses across India secure 
-            <span className="text-[#D4A537] font-semibold"> ₹20 Crore to ₹100 Crore+</span> in project financing. 
+            <span className="text-[#D4A537] font-semibold"> ₹15 Cr. and Above</span> in project financing. 
             Here's how we turn complex funding challenges into successful outcomes.
           </p>
         </div>

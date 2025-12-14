@@ -358,7 +358,7 @@ export default function Sectors() {
             Ready to Fund Your Next Big Project?
           </h2>
           <p className="text-xl text-[#A4C8E1] mb-8">
-            Get expert guidance and structured financing from ₹20 Cr to ₹100 Cr+ for your industry
+            Get expert guidance and structured financing from ₹15 Cr. and Above for your industry
           </p>
           <NavLink 
             to="/apply"
