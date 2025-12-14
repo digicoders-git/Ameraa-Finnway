@@ -267,12 +267,12 @@ export default function Contact() {
               Available Mon–Sat, 10AM–7PM
             </p>
           </a>
-          <a href="mailto:vishal@ameraafinnway.co" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          <a href="mailto:vishhal@ameraafinnway.co" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Mail className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Email</h3>
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
             <p className="text-[#123A5A] text-lg font-semibold break-all">
-              vishal@ameraafinnway.co
+              vishhal@ameraafinnway.co
             </p>
           </a>
           <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">

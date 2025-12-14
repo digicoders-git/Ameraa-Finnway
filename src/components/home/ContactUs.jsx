@@ -72,7 +72,7 @@ const ContactUs = () => {
 
                     {/* Email */}
                     <a
-                      href="mailto:vishal@ameraafinnway.co"
+                      href="mailto:vishhal@ameraafinnway.co"
                       className="bg-white p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
                     >
                       <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const ContactUs = () => {
                             Email Us
                           </p>
                           <p className="font-bold text-[#0A2740] group-hover:text-[#D4A537] transition-colors truncate">
-                            vishal@ameraafinnway.co
+                            vishhal@ameraafinnway.co 
                           </p>
                         </div>
                       </div>

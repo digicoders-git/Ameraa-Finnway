@@ -141,13 +141,13 @@ export default function Footer() {
               </a>
 
               <a
-                href="mailto:vishal@ameraafinnway.co"
+                href="mailto:vishhal@ameraafinnway.co"
                 className="flex items-start gap-2 text-sm hover:text-[#A4C8E1] transition-colors duration-200"
               >
                 <Mail className="w-5 h-5 text-[#D4A537] shrink-0 mt-0.5" />
                 <div>
                   <div className="font-semibold">Email</div>
-                  <div>vishal@ameraafinnway.co</div>
+                  <div>vishhal@ameraafinnway.co</div>
                 </div>
               </a>
 

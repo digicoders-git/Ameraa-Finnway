@@ -198,9 +198,9 @@ export default function CaseStudies() {
                     Client: {caseStudy.client}
                   </span>
                 </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                {/* <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                   {caseStudy.title}
-                </h2>
+                </h2> */}
                 <div className="flex items-center gap-2">
                   <span className="text-[#A4C8E1] text-lg">Funding Sanctioned:</span>
                   <span className="text-[#D4A537] text-3xl font-bold">{caseStudy.funding}</span>
