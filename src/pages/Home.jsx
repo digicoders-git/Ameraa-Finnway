@@ -475,7 +475,7 @@ export default function Home() {
       <main>
         <section
           id="hero"
-          className="-my-15 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 overflow-hidden"
+          className="-my-10 relative bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-20 overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920')] bg-cover bg-center"></div>
