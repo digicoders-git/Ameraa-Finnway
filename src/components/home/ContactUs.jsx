@@ -12,7 +12,7 @@ const ContactUs = () => {
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 items-center">
               {/* Profile Image */}
               <div className="relative mx-auto md:mx-0">
-                <div className="w-32 h-32 md:w-64 md:h-64 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center shrink-0 p-1">
+                <div className="w-32 h-32 md:w-48 md:h-48 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center shrink-0 p-1">
                   <img
                     src={ownerr}
                     className="rounded-full w-full h-full object-cover"
@@ -108,17 +108,6 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-
-                  {/* Quick CTA */}
-                  {/* <div className="mt-4 pt-4 border-t border-[#D4A537] border-opacity-20 text-center">
-                    <p className="text-sm text-[#123A5A] mb-2">
-                      <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2"></span>
-                      Available for consultation
-                    </p>
-                    <p className="text-xs text-[#3A3A3A]">
-                      Mon - Sat: 9:00 AM - 7:00 PM IST
-                    </p>
-                  </div> */}
                 </div>
 
                 {/* Quote */}
