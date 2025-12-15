@@ -1,5 +1,6 @@
 import React from "react";
 import Graphic from '../../assets/Graphic.png'
+import Square from '../../assets/Square.png'
 
 const BusinessTransformation = () => {
   return (
@@ -46,7 +47,7 @@ const BusinessTransformation = () => {
                 <div className="flex justify-center">
                   <div className="relative w-full max-w lg:max-w-xl">
                     <img 
-                      src={Graphic} 
+                      src={Square} 
                       alt="Business Transformation Framework Graphic showing the three pillars of Strategic Consulting, Capital Formation, and Operational Excellence converging to create Accelerated Enterprise Value"
                       className="w-full h-auto object-contain drop-shadow-2xl transform hover:scale-105 transition-transform duration-500"
                       style={{

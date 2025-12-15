@@ -35,6 +35,7 @@ import BusinessTransformation from "../components/home/BusinessTransformation";
 import { NavLink } from "react-router-dom";
 import ContactUs from "../components/home/ContactUs";
 import AboutUsC from "../components/home/AboutUsC";
+import SuccessStories from "../components/home/Success";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -419,15 +420,15 @@ export default function Home() {
   const faqs = [
     {
       q: "What is the minimum loan amount?",
-      a: "We provide project funding starting from ₹20 Crores up to ₹100 Crores and above for eligible high-value projects.",
+      a: "We provide project funding starting from 15 Crores above for eligible high-value projects.",
     },
     {
       q: "Which industries are eligible?",
-      a: "Real Estate, Hospitals, Hotels, Educational Institutions, Manufacturing, Infrastructure, and Government Contractor projects are eligible.",
+      a: "Educational, Manufacturing, Hospitals, Infrastructure, Real Estate , Hotels, Institutions, and Government Contractor projects are eligible.",
     },
     {
       q: "How much time does approval take?",
-      a: "Typically 2–4 months, subject to project complexity and documentation readiness.",
+      a: "Max 45 days after completion of all the documents.",
     },
     {
       q: "Which documents are required?",
@@ -492,7 +493,7 @@ export default function Home() {
 
                 {/* 🔹 ADDED LINE (ONLY THIS) */}
                 <p className="text-[#D4A537] font-semibold mb-4">
-                  Our funding starts from ₹20 Cr
+                  Our funding starts from ₹15 Cr
                 </p>
 
                 <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
@@ -583,7 +584,7 @@ export default function Home() {
         </section>
 
         {/* Strategic Growth Section */}
-        <section className="bg-gradient-to-r from-[#F8F9FB] to-white py-16 scroll-animate">
+        {/* <section className="bg-gradient-to-r from-[#F8F9FB] to-white py-16 scroll-animate">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-[#0A2740] text-3xl md:text-4xl font-bold mb-4">
@@ -639,65 +640,11 @@ export default function Home() {
                   </NavLink>
                 </div>
               </div>
-
-              {/* <div className="bg-white p-8 rounded-xl shadow-lg border border-[#E2E2E2]">
-                <div className="grid grid-cols-2 gap-6">
-                  {[
-                    {
-                      icon: DollarSign,
-                      title: "Funding Range",
-                      value: "₹20 Cr - ₹200 Cr+",
-                      desc: "High-value institutional capital",
-                    },
-                    {
-                      icon: TrendingUp,
-                      title: "Growth Focus",
-                      value: "Strategic Scaling",
-                      desc: "Beyond just funding",
-                    },
-                    {
-                      icon: Users,
-                      title: "Customer Success",
-                      value: "Data-Driven",
-                      desc: "Win & retain customers",
-                    },
-                    {
-                      icon: Award,
-                      title: "Expertise",
-                      value: "20+ Years",
-                      desc: "Pan-India experience",
-                    },
-                  ].map((stat, idx) => (
-                    <div
-                      key={idx}
-                      className="bg-[#F8F9FB] p-4 rounded-lg text-center"
-                    >
-                      <stat.icon className="w-8 h-8 text-[#D4A537] mx-auto mb-2" />
-                      <h4 className="font-bold text-[#0A2740] text-sm mb-1">
-                        {stat.title}
-                      </h4>
-                      <p className="text-[#D4A537] font-semibold mb-1">
-                        {stat.value}
-                      </p>
-                      <p className="text-xs text-[#123A5A]">{stat.desc}</p>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-8 pt-8 border-t border-[#E2E2E2]">
-                  <div className="flex items-center justify-center gap-2 text-[#0A2740]">
-                    <MapPin className="w-5 h-5 text-[#D4A537]" />
-                    <span className="font-semibold">Pan-India Presence</span>
-                    <span className="text-[#123A5A]">•</span>
-                    <span>40+ Institutional Partners</span>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section id="sectors" className="bg-white py-16">
+        {/* <section id="sectors" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
               Sectors We Serve
@@ -718,7 +665,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
         <section id="why-us" className="bg-[#0A2740] text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#D4A537] text-center mb-12 scroll-animate">
@@ -799,7 +746,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="case-studies" className="bg-white py-16">
+        {/* <section id="case-studies" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
               Success Stories
@@ -818,12 +765,13 @@ export default function Home() {
                   <p className="text-[#D4A537] font-semibold mb-2">
                     {study.amount}
                   </p>
-                  {/* <p className="text-[#3A3A3A]">{study.desc}</p> */}
                 </div>
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
+
+        <SuccessStories />
         <section
           id="testimonials"
           className="bg-linear-to-br from-[#0A2740] to-[#123A5A] text-white py-16"

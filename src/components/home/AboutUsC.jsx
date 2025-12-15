@@ -135,11 +135,9 @@ const AboutUsC = () => {
             </h2>
             <div className="bg-white p-8 md:p-12 rounded-2xl border-2 border-[#D4A537] border-opacity-20 shadow-lg scroll-animate">
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
-                We are a professionally managed advisory firm with deep
-                expertise in project finance, institutional funding, and
-                business growth strategy. Our core strength lies in securing
-                high-value funding across India through Government Banks, NBFCs,
-                and leading Private Financial Institutions.
+                We are a specialised Business & Financial Consulting firm focused on helping ambitious organisations scale with confidence and clarity.
+
+At Ameraa Finnway, we work at the intersection of capital, strategy, and execution. Our core expertise lies in enabling businesses to secure high-value project funding through Government Banks and leading Private Financial Institutions, while simultaneously strengthening their strategic, operational, and financial foundations.
               </p>
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
                 Beyond funding, we act as a strategic growth partner, supporting
@@ -163,8 +161,8 @@ const AboutUsC = () => {
             What We Do
           </h2>
           <p className="text-lg text-[#123A5A] text-center mb-12 max-w-3xl mx-auto scroll-animate">
-            At Ameraa Finnway, we support businesses at critical growth stages
-            by providing:
+            We arrange project finance across India through Government Banks and top Private Financiers.
+Along with funding, we provide clear strategic guidance so leaders can make confident, high‑impact decisions
           </p>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {whatWeDo.map((item, idx) => (
