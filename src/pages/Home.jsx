@@ -497,7 +497,7 @@ export default function Home() {
                 </p>
 
                 <p className="text-lg md:text-xl text-[#A4C8E1] mb-8">
-                  Project funding starting at ₹20 Crores for Education,
+                  Project funding starting at ₹15 Crores for Education,
                   Manufacturing, Healthcare, Hospitality, Infrastructure Real
                   Estate, Renewable Energy, Hotels Projects — with fast
                   approvals and seamless processing.

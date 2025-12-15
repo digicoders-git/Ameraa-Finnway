@@ -160,7 +160,7 @@ At Ameraa Finnway, we work at the intersection of capital, strategy, and executi
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-4 scroll-animate">
             What We Do
           </h2>
-          <p className="text-lg text-[#123A5A] text-center mb-12 max-w-3xl mx-auto scroll-animate">
+          <p className="text-lg text-[#123A5A] mb-12 max-w-3xl mx-auto scroll-animate">
             We arrange project finance across India through Government Banks and top Private Financiers.
 Along with funding, we provide clear strategic guidance so leaders can make confident, high‑impact decisions
           </p>
@@ -284,7 +284,7 @@ Along with funding, we provide clear strategic guidance so leaders can make conf
       </section>
 
       {/* Why Ameraa Finnway */}
-      <section className="bg-white py-16">
+      {/* <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-8 scroll-animate">
             Why Ameraa Finnway
@@ -313,7 +313,7 @@ Along with funding, we provide clear strategic guidance so leaders can make conf
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Our Commitment */}
       <section className="bg-gradient-to-br from-[#0A2740] to-[#123A5A] text-white py-16">

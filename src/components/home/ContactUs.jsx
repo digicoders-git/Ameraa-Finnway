@@ -16,7 +16,7 @@ const ContactUs = () => {
                   <img
                     src={ownerr}
                     className="rounded-full w-full h-full object-cover"
-                    alt="Vishhal S. Kumar"
+                    alt="Vishhal S Kumar"
                   />
                 </div>
                 <div className="absolute -bottom-2 -right-2 w-12 h-12 md:w-16 md:h-16 bg-[#D4A537] rounded-full flex items-center justify-center border-4 border-white shadow-lg">
@@ -27,13 +27,13 @@ const ContactUs = () => {
               {/* Content */}
               <div className="flex-1 w-full">
                 <h3 className="text-xl md:text-4xl font-bold text-[#0A2740] mb-2">
-                  Vishhal S. Kumar
+                  Vishhal S Kumar
                 </h3>
                 <p className="text-base md:text-xl text-[#D4A537] font-semibold mb-4">
                   Founder, Ameraa Finnway – Lucknow, India
                 </p>
                 <p className="text-sm md:text-base text-[#3A3A3A] leading-relaxed mb-6">
-                  With more than 20 years of financial expertise, Vishhal S. Kumar
+                  With more than 20 years of financial expertise, Vishhal S Kumar
                   is a recognized advisor in the space of project funding,
                   construction finance, institutional lending, and government
                   bank loan structuring.
