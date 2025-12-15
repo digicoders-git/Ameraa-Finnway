@@ -211,7 +211,7 @@ export default function Sectors() {
             Empowering India's Growth Through Specialized Funding
           </h2>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
-            At Ameraa Finnway, we specialize in providing <span className="text-[#D4A537] font-semibold">₹20 Crore to ₹100 Crore+</span> project finance across diverse sectors. 
+            At Ameraa Finnway, we specialize in providing <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> project finance across diverse sectors. 
             Our deep industry expertise and strong banking relationships enable us to deliver tailored funding solutions for capital-intensive ventures nationwide.
           </p>
         </div>
@@ -295,8 +295,8 @@ export default function Sectors() {
               <div className="text-white text-lg">Key Sectors</div>
             </div>
             <div className="group hover:scale-110 transition-transform duration-300">
-              <div className="text-4xl md:text-5xl font-bold text-[#D4A537] mb-2" aria-label="Up to 100 crore rupees maximum funding">₹100Cr+</div>
-              <div className="text-white text-lg">Maximum Funding</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#D4A537] mb-2" aria-label="Up to 100 crore rupees maximum funding">₹15 Cr. above</div>
+              <div className="text-white text-lg">Funding</div>
             </div>
             <div className="group hover:scale-110 transition-transform duration-300">
               <div className="text-4xl md:text-5xl font-bold text-[#D4A537] mb-2" aria-label="20 plus years of experience">20+</div>

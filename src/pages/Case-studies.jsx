@@ -349,15 +349,15 @@ export default function CaseStudies() {
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12">
             Project Highlights
           </h2>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="text-4xl font-bold text-[#D4A537] mb-2">150</div>
               <div className="text-[#123A5A] font-semibold">Bed Capacity</div>
             </div>
-            <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105">
+            {/* <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="text-4xl font-bold text-[#D4A537] mb-2">₹35Cr</div>
               <div className="text-[#123A5A] font-semibold">Total Funding</div>
-            </div>
+            </div> */}
             <div className="bg-white rounded-xl p-6 text-center shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="text-4xl font-bold text-[#D4A537] mb-2">45</div>
               <div className="text-[#123A5A] font-semibold">Days to Sanction</div>

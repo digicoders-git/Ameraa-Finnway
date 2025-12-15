@@ -262,7 +262,7 @@ export default function Manufacturing() {
           </p>
 
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed mb-8">
-            Ameraa Finnway specialises in <span className="text-[#D4A537] font-semibold">₹5 Cr – ₹100 Cr+</span> funding for manufacturing units, helping promoters scale production with strong financial backing.
+            Ameraa Finnway specialises in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> funding for manufacturing units, helping promoters scale production with strong financial backing.
           </p>
 
           <div className="max-w-3xl mx-auto bg-[#F8F9FB] rounded-xl p-8 border-l-4 border-[#D4A537]">
@@ -488,7 +488,7 @@ export default function Manufacturing() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="group hover:scale-110 transition-transform duration-300">
               <DollarSign className="w-12 h-12 text-[#D4A537] mx-auto mb-3" />
-              <div className="text-4xl font-bold text-[#D4A537] mb-2">₹5-100Cr+</div>
+              <div className="text-4xl font-bold text-[#D4A537] mb-2">15 Cr. above</div>
               <div className="text-white text-lg">Funding Range</div>
             </div>
             <div className="group hover:scale-110 transition-transform duration-300">

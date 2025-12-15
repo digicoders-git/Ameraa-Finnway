@@ -170,7 +170,7 @@ export default function Process() {
           </h2>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
             Our proven 3-step process ensures your project receives the right funding through the right channels. 
-            With <span className="text-[#D4A537] font-semibold">20+ years</span> of expertise, we've refined a system that delivers results for projects ranging from <span className="text-[#D4A537] font-semibold">₹20 Crore to ₹100 Crore+</span>.
+            With <span className="text-[#D4A537] font-semibold">20+ years</span> of expertise, we've refined a system that delivers results for projects ranging from <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span>.
           </p>
         </div>
       </section>
@@ -262,7 +262,7 @@ export default function Process() {
         <div className="max-w-5xl mx-auto">
           <div className="bg-linear-to-br from-[#F8F9FB] to-white rounded-2xl p-8 md:p-12 border-2 border-[#D4A537] shadow-xl">
             <p className="text-xl md:text-2xl text-[#0A2740] font-bold text-center leading-relaxed">
-              A transparent, structured and time-tested funding process designed for <span className="text-[#D4A537]">₹20 Cr – ₹100 Cr+</span> projects.
+              A transparent, structured and time-tested funding process designed for <span className="text-[#D4A537]">₹15 Cr. above</span> projects.
             </p>
           </div>
         </div>

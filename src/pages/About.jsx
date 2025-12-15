@@ -54,7 +54,7 @@ export default function About() {
   ];
 
   const differentiators = [
-    "High-ticket funding specialization (₹20Cr – ₹100Cr+)",
+    "High-ticket funding specialization (₹15 Cr. above)",
     "Strong government banking relationships",
     "Sector-specific expertise (Real Estate, Healthcare, Hospitality)",
     "Fast approvals with structured documentation",
@@ -79,7 +79,7 @@ export default function About() {
             About Ameraa Finnway
           </h1>
           <p className="text-xl md:text-2xl text-[#A4C8E1] max-w-4xl mx-auto mb-8 animate-fade-in-up animation-delay-200">
-            Premier Project Finance Advisory Specializing in ₹20 Crore to ₹100 Crore+ Funding
+            Premier Project Finance Advisory Specializing in ₹15 Crore above Funding
           </p>
           <div className="w-24 h-1 bg-[#D4A537] mx-auto animate-scale-in animation-delay-400"></div>
         </div>
@@ -183,7 +183,7 @@ export default function About() {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D4A537]"></span>
             </h2>
             <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
-              Ameraa Finnway is a premier project finance advisory firm specializing in <span className="text-[#D4A537] font-semibold">₹20 Crore to ₹100 Crore+ funding</span> for capital-intensive infrastructure and commercial ventures across India.
+              Ameraa Finnway is a premier project finance advisory firm specializing in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> for capital-intensive infrastructure and commercial ventures across India.
             </p>
             <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
               For over <span className="text-[#D4A537] font-semibold">20 years</span>, we have enabled businesses, developers, contractors, institutions, and industrial enterprises to access funding from leading Government Banks, NBFCs, and Private Financial Institutions with structured financial planning and seamless execution.
@@ -336,7 +336,7 @@ export default function About() {
               </div>
               <div className="flex-1">
                 <h3 className="text-3xl md:text-4xl font-bold text-[#D4A537] mb-2">
-                  Vishhal S. Kumar
+                  Vishhal S Kumar
                 </h3>
                 <p className="text-xl text-white mb-4">
                   Founder, Ameraa Finnway – Lucknow, India
@@ -346,7 +346,7 @@ export default function About() {
                 </p>
                 <div className="space-y-3">
                   {[
-                    'Structuring ₹20 Cr – ₹100 Cr+ project proposals',
+                    'Structuring ₹15 Cr above project proposals',
                     'Strategic partnerships with nationalized banks & NBFCs',
                     'Advisory for complex infra & commercial projects',
                     'Documentation, compliance & execution leadership',
@@ -506,7 +506,7 @@ export default function About() {
             Ready to Unlock Your Project's Potential?
           </h2>
           <p className="text-xl text-[#A4C8E1] mb-8">
-            Partner with India's trusted project finance advisory for structured funding from ₹20 Cr to ₹100 Cr+
+            Partner with India's trusted project finance advisory for structured funding from ₹15 cr. above
           </p>
           <NavLink to="/contact" className="bg-[#D4A537] hover:bg-[#C59230] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110 cursor-pointer">
             Get Started Today

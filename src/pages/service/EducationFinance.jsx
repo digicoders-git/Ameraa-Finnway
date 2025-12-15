@@ -218,21 +218,21 @@ export default function EducationFinance() {
               and compliance, we help institutions expand infrastructure,
               modernize campuses, and scale operations sustainably.
             </p>
-            <div className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto">
-              <div className="bg-[#F8F9FB] p-6 rounded-lg border-2 border-[#D4A537]">
+            <div className="grid md:grid-cols-1 gap-6 max-w-2xl mx-auto">
+              {/* <div className="bg-[#F8F9FB] p-6 rounded-lg border-2 border-[#D4A537]">
                 <p className="text-sm text-[#0A2740] font-semibold mb-2">
                   Typical Funding Size
                 </p>
                 <p className="text-2xl font-bold text-[#D4A537]">
                   ₹5 Cr – ₹100 Cr+
                 </p>
-              </div>
+              </div> */}
               <div className="bg-[#F8F9FB] p-6 rounded-lg border-2 border-[#D4A537]">
                 <p className="text-sm text-[#0A2740] font-semibold mb-2">
                   Core Focus
                 </p>
                 <p className="text-2xl font-bold text-[#D4A537]">
-                  ₹20 Cr+ Projects
+                  ₹15 Cr+ Projects
                 </p>
               </div>
             </div>
