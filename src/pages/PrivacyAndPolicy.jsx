@@ -404,9 +404,17 @@ export default function PrivacyAndPolicy() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#0A2740] text-lg">Phone Number</h4>
-                      <a href="tel:+919592171057" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium">
-                        +91 9592171057
-                      </a>
+                      <div className="space-y-1">
+                        <a href="tel:+919592171057" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
+                          +91 9592171057
+                        </a>
+                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
+                          +91 90766 12555
+                        </a>
+                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
+                          +91 90766 12555
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>

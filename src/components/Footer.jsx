@@ -129,16 +129,16 @@ export default function Footer() {
               Contact Us
             </h3>
             <div className="space-y-3">
-              <a
-                href="tel:+919592171057"
-                className="flex items-start gap-2 text-sm hover:text-[#A4C8E1] transition-colors duration-200"
-              >
+              <div className="flex items-start gap-2 text-sm">
                 <Phone className="w-5 h-5 text-[#D4A537] shrink-0 mt-0.5" />
                 <div>
                   <div className="font-semibold">Phone</div>
-                  <div>+91 9592171057</div>
+                  <div>
+                    <a href="tel:+919592171057" className="hover:text-[#A4C8E1] transition-colors duration-200 block">+91 9592171057</a>
+                    <a href="tel:+919076612555" className="hover:text-[#A4C8E1] transition-colors duration-200 block">+91 90766 12555</a>
+                  </div>
                 </div>
-              </a>
+              </div>
 
               <a
                 href="mailto:vishhal@ameraafinnway.co"

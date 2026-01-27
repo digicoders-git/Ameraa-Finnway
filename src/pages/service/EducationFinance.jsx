@@ -416,13 +416,22 @@ export default function EducationFinance() {
               Talk to Our Education Finance Expert
               <ArrowRight className="ml-2 w-5 h-5" />
             </NavLink>
-            <a
-              href="tel:+91 9592171057"
-              className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
-            >
-              <Phone className="mr-2 w-5 h-5" />
-              Schedule a Call
-            </a>
+            <div className="flex gap-2">
+              <a
+                href="tel:+919592171057"
+                className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-4 py-4 rounded-lg font-semibold transition-all duration-200"
+              >
+                <Phone className="mr-2 w-5 h-5" />
+                Call Now
+              </a>
+              <a
+                href="tel:+919076612555"
+                className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-4 py-4 rounded-lg font-semibold transition-all duration-200"
+              >
+                <Phone className="mr-2 w-5 h-5" />
+                Call Now
+              </a>
+            </div>
           </div>
         </div>
       </section>

@@ -51,7 +51,7 @@ const ContactUs = () => {
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
-                    {/* Phone */}
+                    {/* Phone 1 */}
                     <a
                       href="tel:+919592171057"
                       className="bg-white p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
@@ -66,6 +66,26 @@ const ContactUs = () => {
                           </p>
                           <p className="font-bold text-sm md:text-base text-[#0A2740] group-hover:text-[#D4A537] transition-colors break-all">
                             +91 9592171057
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+
+                    {/* Second Phone */}
+                    <a
+                      href="tel:+919076612555"
+                      className="bg-white p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+                          <Phone className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                        </div>
+                        <div className="min-w-0">
+                          <p className="text-xs text-[#3A3A3A] mb-1">
+                            Call Direct
+                          </p>
+                          <p className="font-bold text-sm md:text-base text-[#0A2740] group-hover:text-[#D4A537] transition-colors break-all">
+                            +91 90766 12555
                           </p>
                         </div>
                       </div>

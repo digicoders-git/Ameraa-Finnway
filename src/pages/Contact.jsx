@@ -256,17 +256,22 @@ export default function Contact() {
         }`}
       >
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
-          <a href="tel:+91 9592171057" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
+          <div className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Phone className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Phone</h3>
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
-            <p className="text-[#123A5A] text-lg font-semibold">
-              +91 9592171057
-            </p>
+            <div className="space-y-2">
+              <p className="text-[#123A5A] text-lg font-semibold">
+                <a href="tel:+919592171057" className="hover:text-[#D4A537] transition-colors">+91 9592171057</a>
+              </p>
+              <p className="text-[#123A5A] text-lg font-semibold">
+                <a href="tel:+919076612555" className="hover:text-[#D4A537] transition-colors">+91 90766 12555</a>
+              </p>
+            </div>
             <p className="text-[#3A3A3A] text-sm mt-2">
               Available Mon–Sat, 10AM–7PM
             </p>
-          </a>
+          </div>
           <a href="mailto:vishhal@ameraafinnway.co" className="bg-white shadow-xl rounded-xl p-8 border-l-4 border-[#D4A537] hover:shadow-2xl hover:scale-105 transition-all duration-500">
             <Mail className="w-10 h-10 text-[#D4A537] mb-4" />
             <h3 className="text-[#0A2740] font-bold text-xl mb-2">Email</h3>

@@ -504,21 +504,23 @@ export default function Home() {
                   approvals and seamless processing.
                 </p>
 
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <button
-                    onClick={() => scrollToSection("#apply")}
-                    className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105 cursor-pointer"
-                  >
-                    Apply Now <ArrowRight className="ml-2 w-5 h-5" />
-                  </button>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <button
+                      onClick={() => scrollToSection("#apply")}
+                      className="inline-flex items-center justify-center bg-[#D4A537] hover:bg-[#C59230] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 hover:scale-105 cursor-pointer"
+                    >
+                      Apply Now <ArrowRight className="ml-2 w-5 h-5" />
+                    </button>
 
-                  <a
-                    href="tel:+91 9592171057"
-                    className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
-                  >
-                    Schedule a Call
-                  </a>
-                </div>
+                    <div className="flex gap-2">
+                      <a
+                        href="tel:+919592171057"
+                        className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-4 py-4 rounded-lg font-semibold transition-all duration-200"
+                      >
+                        Call Now
+                      </a>
+                    </div>
+                  </div>
               </div>
 
               {/* Right Image */}

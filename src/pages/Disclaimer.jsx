@@ -368,9 +368,17 @@ export default function Disclaimer() {
                     </div>
                     <div>
                       <h4 className="font-bold text-[#123A5A]">Phone</h4>
-                      <a href="tel:+919592171057" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors">
-                        +91 9592171057
-                      </a>
+                      <div className="space-y-1">
+                        <a href="tel:+919592171057" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
+                          +91 9592171057
+                        </a>
+                        <a href="tel:+919076612555" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
+                          +91 90766 12555
+                        </a>
+                        <a href="tel:+919076612555" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
+                          +91 90766 12555
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
