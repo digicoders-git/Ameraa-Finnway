@@ -92,9 +92,9 @@ const ContactUs = () => {
                     </a>
 
                     {/* Email */}
-                    <a
+                    {/* <a
                       href="mailto:vishhal@ameraafinnway.co"
-                      className="bg-white p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
+                      className="bg-white w-full p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20 hover:border-[#D4A537] hover:shadow-md transition-all duration-300 group"
                     >
                       <div className="flex items-center gap-3">
                         <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
@@ -109,9 +109,24 @@ const ContactUs = () => {
                           </p>
                         </div>
                       </div>
-                    </a>
+                    </a> */}
 
                     {/* Location - Full Width */}
+                    <a href="mailto:vishhal@ameraafinnway.co" className="sm:col-span-2 bg-white p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20">
+                      <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center flex-shrink-0">
+                          <Mail className="w-5 h-5 md:w-6 md:h-6 text-white" />
+                        </div>
+                        <div className="min-w-0">
+                          <p className="text-xs text-[#3A3A3A] mb-1">
+                            Email Us
+                          </p>
+                          <p className="font-bold text-sm md:text-base text-[#0A2740]">
+                            vishhal@ameraafinnway.co
+                          </p>
+                        </div>
+                      </div>
+                    </a>
                     <div className="sm:col-span-2 bg-white p-3 md:p-4 rounded-lg border border-[#D4A537] border-opacity-20">
                       <div className="flex items-center gap-3">
                         <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-[#D4A537] to-[#C59230] rounded-full flex items-center justify-center flex-shrink-0">
