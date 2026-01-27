@@ -36,6 +36,7 @@ import { NavLink } from "react-router-dom";
 import ContactUs from "../components/home/ContactUs";
 import AboutUsC from "../components/home/AboutUsC";
 import SuccessStories from "../components/home/Success";
+import RealEstateBusinessSection from "../components/home/RealEstateBusinessSection";
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState(null);
@@ -686,6 +687,7 @@ export default function Home() {
           </div>
         </section>
         <BusinessTransformation />
+        <RealEstateBusinessSection />
         <section id="process" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
