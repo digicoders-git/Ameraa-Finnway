@@ -512,10 +512,10 @@ export default function Home() {
                       Apply Now <ArrowRight className="ml-2 w-5 h-5" />
                     </button>
 
-                    <div className="flex gap-2">
+                    <div className="flex gap-4">
                       <a
                         href="tel:+919592171057"
-                        className="inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-4 py-4 rounded-lg font-semibold transition-all duration-200"
+                        className="flex-1 sm:flex-none inline-flex items-center justify-center border-2 border-[#D4A537] text-[#D4A537] hover:bg-[#D4A537] hover:text-white px-4 py-4 rounded-lg font-semibold transition-all duration-200"
                       >
                         Call Now
                       </a>
