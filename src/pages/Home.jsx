@@ -536,6 +536,7 @@ export default function Home() {
         </section>
 
         <ContactUs />
+        <RealEstateBusinessSection />
         <AboutUsC />
 
         <section className="bg-white py-8 border-b border-[#E2E2E2]">
@@ -689,7 +690,6 @@ export default function Home() {
           </div>
         </section>
         <BusinessTransformation />
-        <RealEstateBusinessSection />
         <section id="process" className="bg-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
