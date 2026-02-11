@@ -34,7 +34,7 @@ export default function TermAndCondition() {
       iconBg: "bg-blue-100",
       iconColor: "text-blue-600",
       content: [
-        "Welcome to Ameraa Finnway ('Company', 'we', 'our', 'us')",
+        "Welcome to AMIRRA FINWAYE ('Company', 'we', 'our', 'us')",
         "By using our website/services, you agree to these Terms",
         "If you disagree, please discontinue use immediately",
         "Our services include: Project Finance Advisory, Business Consulting, Funding Facilitation"
@@ -383,7 +383,7 @@ export default function TermAndCondition() {
                 <div className="lg:w-3/5">
                   <h3 className="text-2xl font-bold text-[#D4A537] mb-6">Important Legal Notice</h3>
                   <p className="text-[#A4C8E1] leading-relaxed mb-6">
-                    These Terms & Conditions form a legally binding agreement between you and Ameraa Finnway. 
+                    These Terms & Conditions form a legally binding agreement between you and AMIRRA FINWAYE. 
                     By using our services, you acknowledge that you have read, understood, and agreed to all 
                     terms mentioned in the sections above.
                   </p>
@@ -444,14 +444,12 @@ export default function TermAndCondition() {
                     <div>
                       <h4 className="font-bold text-[#0A2740] text-lg">Phone Number</h4>
                       <div className="space-y-1">
+                        
+                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
+                          +91 90766 12555
+                        </a>
                         <a href="tel:+919592171057" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
                           +91 9592171057
-                        </a>
-                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
-                          +91 90766 12555
-                        </a>
-                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
-                          +91 90766 12555
                         </a>
                       </div>
                     </div>
@@ -494,7 +492,7 @@ export default function TermAndCondition() {
                 </div>
                 <div className="flex items-start gap-3 bg-white/5 rounded-lg p-4">
                   <CheckCircle className="w-6 h-6 text-green-400 shrink-0 mt-1" />
-                  <span className="text-[#A4C8E1]">I understand Ameraa Finnway is an advisory firm</span>
+                  <span className="text-[#A4C8E1]">I understand AMIRRA FINWAYE is an advisory firm</span>
                 </div>
                 <div className="flex items-start gap-3 bg-white/5 rounded-lg p-4">
                   <CheckCircle className="w-6 h-6 text-green-400 shrink-0 mt-1" />

@@ -207,7 +207,7 @@ export default function EducationFinance() {
               Funding the Future of Education
             </h2>
             <p className="text-lg text-[#3A3A3A] mb-6 leading-relaxed">
-              Ameraa Finnway provides large-ticket project finance solutions for
+              AMIRRA FINWAYE provides large-ticket project finance solutions for
               educational institutions across India. We support schools,
               colleges, universities, training institutes, and education trusts
               in securing structured funding from Government Banks and reputed
@@ -371,11 +371,11 @@ export default function EducationFinance() {
         </div>
       </section>
 
-      {/* Why Ameraa Finnway */}
+      {/* Why AMIRRA FINWAYE */}
       <section className="bg-[#F8F9FB] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-12 scroll-animate">
-            Why Ameraa Finnway for Education Projects
+            Why AMIRRA FINWAYE for Education Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {usps.map((usp, idx) => (

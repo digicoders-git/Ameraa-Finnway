@@ -183,7 +183,7 @@ export default function Home() {
     try {
       setsuccesLoad(true);
       setError("");
-      console.log(import.meta.env.VITE_BASE_URL);
+      // console.log(import.meta.env.VITE_BASE_URL);
       const abhay = await axios.post(
         import.meta.env.VITE_BASE_URL + "/project/create",
         formData,
@@ -404,7 +404,7 @@ export default function Home() {
     {
       name: "Rajesh Kumar",
       sector: "Real Estate Developer",
-      text: "Ameraa Finnway helped us secure ₹60 Cr for our hotel expansion with quick approval and professional coordination.",
+      text: "AMIRRA FINWAYE helped us secure ₹60 Cr for our hotel expansion with quick approval and professional coordination.",
     },
     {
       name: "Dr. Priya Sharma",
@@ -527,7 +527,7 @@ export default function Home() {
               <div className="hidden lg:flex justify-center items-center">
                 <img
                   src={logo}
-                  alt="Ameraa Finnway"
+                  alt="AMIRRA FINWAYE"
                   className="rounded-lg max-h-96 w-auto object-contain"
                 />
               </div>
@@ -605,7 +605,7 @@ export default function Home() {
                 <p className="text-[#123A5A] text-lg leading-relaxed mb-6">
                   At{" "}
                   <span className="text-[#D4A537] font-semibold">
-                    Ameraa Finnway
+                    AMIRRA FINWAYE
                   </span>
                   , we combine strategic business consulting with high-value
                   project funding to accelerate your company's growth. From
@@ -673,7 +673,7 @@ export default function Home() {
         <section id="why-us" className="bg-[#0A2740] text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#D4A537] text-center mb-12 scroll-animate">
-              Why Ameraa Finnway?
+              Why AMIRRA FINWAYE?
             </h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {usps.map((usp, idx) => (

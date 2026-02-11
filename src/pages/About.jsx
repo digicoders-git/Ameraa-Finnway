@@ -76,7 +76,7 @@ export default function About() {
         
         <div className="relative z-10 max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 animate-fade-in-down">
-            About Ameraa Finnway
+            About AMIRRA FINWAYE
           </h1>
           <p className="text-xl md:text-2xl text-[#A4C8E1] max-w-4xl mx-auto mb-8 animate-fade-in-up animation-delay-200">
             Premier Project Finance Advisory Specializing in ₹15 Crore above Funding
@@ -183,7 +183,7 @@ export default function About() {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D4A537]"></span>
             </h2>
             <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
-              Ameraa Finnway is a premier project finance advisory firm specializing in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> for capital-intensive infrastructure and commercial ventures across India.
+              AMIRRA FINWAYE is a premier project finance advisory firm specializing in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> for capital-intensive infrastructure and commercial ventures across India.
             </p>
             <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
               For over <span className="text-[#D4A537] font-semibold">20 years</span>, we have enabled businesses, developers, contractors, institutions, and industrial enterprises to access funding from leading Government Banks, NBFCs, and Private Financial Institutions with structured financial planning and seamless execution.
@@ -212,7 +212,7 @@ export default function About() {
         Growth Advisory: Building Future-Ready Businesses
       </h2>
       <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
-        Ameraa Finnway not only provides high-value project funding — we also help businesses scale, transform, and become future-ready through our specialized Growth Advisory Services. Our goal is to create a strong foundation for long-term success by improving strategy, operations, financial planning, and market positioning.
+        AMIRRA FINWAYE not only provides high-value project funding — we also help businesses scale, transform, and become future-ready through our specialized Growth Advisory Services. Our goal is to create a strong foundation for long-term success by improving strategy, operations, financial planning, and market positioning.
       </p>
     </div>
 
@@ -285,11 +285,11 @@ export default function About() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] mb-6">
-              The Ameraa Finnway Story
+              The AMIRRA FINWAYE Story
             </h2>
             <div className="border-l-4 border-[#D4A537] pl-6">
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
-                Ameraa Finnway was founded with a mission to solve the biggest challenge faced by large project developers and business owners: <span className="text-[#D4A537] font-semibold">accessing timely, structured, and bank-approved project finance</span>.
+                AMIRRA FINWAYE was founded with a mission to solve the biggest challenge faced by large project developers and business owners: <span className="text-[#D4A537] font-semibold">accessing timely, structured, and bank-approved project finance</span>.
               </p>
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
                 With years of experience in financial advisory, government banking processes, and project structuring, the founder recognized a major gap — businesses needed a trusted partner who could navigate complex financial systems and deliver results.
@@ -339,7 +339,7 @@ export default function About() {
                   Vishhal S Kumar
                 </h3>
                 <p className="text-xl text-white mb-4">
-                  Founder, Ameraa Finnway – Lucknow, India
+                  Founder, AMIRRA FINWAYE – Lucknow, India
                 </p>
                 <p className="text-[#A4C8E1] leading-relaxed mb-6">
                   With more than 20 years of financial expertise, Vishhal S Kumar is a recognized advisor in the space of project funding, construction finance, institutional lending, and government bank loan structuring.

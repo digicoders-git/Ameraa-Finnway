@@ -33,7 +33,7 @@ export default function Disclaimer() {
       iconColor: "text-blue-600",
       borderColor: "border-l-4 border-blue-500",
       content: [
-        "Ameraa Finnway is a Project Finance Advisory & Business Consulting Firm",
+        "AMIRRA FINWAYE is a Project Finance Advisory & Business Consulting Firm",
         "We are NOT a bank, NBFC, financial institution, or lender",
         "Our role is limited to advisory, documentation support, and bank coordination",
         "Final decisions (loan sanction, interest rates) are made solely by banks/NBFCs"
@@ -195,7 +195,7 @@ export default function Disclaimer() {
             </div>
             <div className="text-center md:text-left">
               <p className="text-yellow-800 font-medium">
-                Ameraa Finnway is an ADVISORY FIRM — Not a direct lender
+                AMIRRA FINWAYE is an ADVISORY FIRM — Not a direct lender
               </p>
             </div>
           </div>
@@ -369,15 +369,13 @@ export default function Disclaimer() {
                     <div>
                       <h4 className="font-bold text-[#123A5A]">Phone</h4>
                       <div className="space-y-1">
+                        <a href="tel:+919076612555" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
+                          +91 90766 12555
+                        </a>
                         <a href="tel:+919592171057" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
                           +91 9592171057
                         </a>
-                        <a href="tel:+919076612555" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
-                          +91 90766 12555
-                        </a>
-                        <a href="tel:+919076612555" className="text-[#3A3A3A] hover:text-[#D4A537] transition-colors block">
-                          +91 90766 12555
-                        </a>
+                        
                       </div>
                     </div>
                   </div>
@@ -415,7 +413,7 @@ export default function Disclaimer() {
               <div className="space-y-4 mb-8">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-1" />
-                  <span className="text-[#A4C8E1]">I understand Ameraa Finnway is an advisory firm</span>
+                  <span className="text-[#A4C8E1]">I understand AMIRRA FINWAYE is an advisory firm</span>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-green-400 shrink-0 mt-1" />

@@ -262,7 +262,7 @@ export default function Manufacturing() {
           </p>
 
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed mb-8">
-            Ameraa Finnway specialises in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> funding for manufacturing units, helping promoters scale production with strong financial backing.
+            AMIRRA FINWAYE specialises in <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> funding for manufacturing units, helping promoters scale production with strong financial backing.
           </p>
 
           <div className="max-w-3xl mx-auto bg-[#F8F9FB] rounded-xl p-8 border-l-4 border-[#D4A537]">

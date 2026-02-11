@@ -266,7 +266,7 @@ export default function Government() {
           </p>
 
           <div className="max-w-3xl mx-auto bg-[#F8F9FB] rounded-xl p-8 border-l-4 border-[#D4A537] mb-8">
-            <p className="text-[#0A2740] font-semibold mb-4">AMERAA FINNWAY helps contractors secure:</p>
+            <p className="text-[#0A2740] font-semibold mb-4">AMIRRA FINWAYE helps contractors secure:</p>
             <div className="grid md:grid-cols-2 gap-3">
               {supportAreas.map((area, idx) => (
                 <div key={idx} className="flex items-center gap-2 text-[#3A3A3A]">
@@ -395,7 +395,7 @@ export default function Government() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] mb-4">
-              Why Government Contractors Choose Ameraa Finnway
+              Why Government Contractors Choose AMIRRA FINWAYE
             </h2>
             <p className="text-xl text-[#123A5A] font-semibold">
               Tender-Based Financing Requires Specialist Advisory

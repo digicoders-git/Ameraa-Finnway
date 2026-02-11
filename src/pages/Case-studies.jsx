@@ -271,7 +271,7 @@ export default function CaseStudies() {
                   </h3>
                 </div>
                 <p className="text-[#3A3A3A] mb-6 leading-relaxed">
-                  Ameraa Finnway designed a complete funding roadmap:
+                  AMIRRA FINWAYE designed a complete funding roadmap:
                 </p>
                 <div className="space-y-6">
                   {caseStudy.solutions.map((solution, idx) => (
@@ -381,7 +381,7 @@ export default function CaseStudies() {
               </p>
               <div className="w-24 h-1 bg-[#D4A537] mx-auto mb-4"></div>
               <p className="text-[#A4C8E1] font-semibold">
-                Ameraa Finnway Team
+                AMIRRA FINWAYE Team
               </p>
             </div>
           </div>

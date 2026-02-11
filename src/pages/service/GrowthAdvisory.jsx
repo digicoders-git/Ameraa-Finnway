@@ -117,7 +117,7 @@ const GrowthAdvisory = () => {
           <h1 className="text-white text-5xl font-bold animate-fade-in-down">Strategic Growth Advisory for Future-Ready Businesses</h1>
           <div className="w-24 h-1 bg-[#D4A537] mx-auto mt-4 animate-scale-in animation-delay-200"></div>
           <p className="text-[#A4C8E1] text-xl max-w-3xl mx-auto mt-6 animate-fade-in-up animation-delay-400">
-            Transform your business into a high-performance, scalable and future-ready organisation with Ameraa Finnway's expert Growth Advisory services. We combine funding + strategy + intelligence to build stronger, smarter, and more competitive companies.
+            Transform your business into a high-performance, scalable and future-ready organisation with AMIRRA FINWAYE's expert Growth Advisory services. We combine funding + strategy + intelligence to build stronger, smarter, and more competitive companies.
           </p>
         </div>
       </section>
@@ -125,7 +125,7 @@ const GrowthAdvisory = () => {
       <section className="py-16 px-4 bg-[#F8F9FB]">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] mb-6">We Don't Just Finance. We Build & Scale Businesses.</h2>
-          <p className="text-lg text-[#3A3A3A] mb-8 max-w-4xl mx-auto">At Ameraa Finnway, our Growth Advisory practice helps companies grow sustainably, improve profitability, strengthen operations, and expand confidently across India.</p>
+          <p className="text-lg text-[#3A3A3A] mb-8 max-w-4xl mx-auto">At AMIRRA FINWAYE, our Growth Advisory practice helps companies grow sustainably, improve profitability, strengthen operations, and expand confidently across India.</p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-3xl mx-auto text-left">
             {["Strategic clarity", "Business restructuring", "Market expansion", "Brand positioning", "Data-driven decision making", "Long-term financial stability"].map((item, idx) => (
               <div key={idx} className="flex items-center gap-2">

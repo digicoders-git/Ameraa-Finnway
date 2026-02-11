@@ -26,7 +26,7 @@ const BusinessTransformation = () => {
           {/* <div className="max-w-4xl mx-auto mb-12">
             <div className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-l-4 border-[#D4A537] animate-fade-in animation-delay-600">
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-4">
-                At Ameraa Finnway, we follow a deeply integrated approach that
+                At AMIRRA FINWAYE, we follow a deeply integrated approach that
                 strengthens every pillar of an organisation — strategy, capital,
                 and operations. Our framework ensures that businesses not only
                 secure the right funding but also evolve into scalable,

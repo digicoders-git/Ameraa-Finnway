@@ -34,7 +34,7 @@ export default function PrivacyAndPolicy() {
       iconBg: "bg-blue-100",
       iconColor: "text-blue-600",
       content: [
-        "Ameraa Finnway is committed to protecting your privacy",
+        "AMIRRA FINWAYE is committed to protecting your privacy",
         "Explains how we collect, use, disclose & safeguard information",
         "Applies to website visits & project submissions",
         "By using our services, you consent to this policy"
@@ -344,7 +344,7 @@ export default function PrivacyAndPolicy() {
                 <div className="lg:w-3/5">
                   <h3 className="text-2xl font-bold text-[#D4A537] mb-6">Our Security Commitment</h3>
                   <p className="text-[#A4C8E1] leading-relaxed mb-6">
-                    At Ameraa Finnway, we implement enterprise-grade security protocols to protect your data. 
+                    At AMIRRA FINWAYE, we implement enterprise-grade security protocols to protect your data. 
                     From encrypted storage to limited access controls, we ensure your information remains 
                     confidential and secure throughout our engagement.
                   </p>
@@ -405,14 +405,12 @@ export default function PrivacyAndPolicy() {
                     <div>
                       <h4 className="font-bold text-[#0A2740] text-lg">Phone Number</h4>
                       <div className="space-y-1">
+                        
+                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
+                          +91 90766 12555
+                        </a>
                         <a href="tel:+919592171057" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
                           +91 9592171057
-                        </a>
-                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
-                          +91 90766 12555
-                        </a>
-                        <a href="tel:+919076612555" className="text-[#123A5A] hover:text-[#D4A537] transition-colors text-lg font-medium block">
-                          +91 90766 12555
                         </a>
                       </div>
                     </div>

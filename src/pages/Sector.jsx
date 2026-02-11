@@ -211,7 +211,7 @@ export default function Sectors() {
             Empowering India's Growth Through Specialized Funding
           </h2>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
-            At Ameraa Finnway, we specialize in providing <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> project finance across diverse sectors. 
+            At AMIRRA FINWAYE, we specialize in providing <span className="text-[#D4A537] font-semibold">₹15 Cr. above</span> project finance across diverse sectors. 
             Our deep industry expertise and strong banking relationships enable us to deliver tailored funding solutions for capital-intensive ventures nationwide.
           </p>
         </div>
@@ -363,7 +363,7 @@ export default function Sectors() {
           <NavLink 
             to="/apply"
             className="inline-block bg-[#D4A537] hover:bg-[#C59230] text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-110"
-            aria-label="Discuss your project with Ameraa Finnway"
+            aria-label="Discuss your project with AMIRRA FINWAYE"
           >
             Discuss Your Project
           </NavLink>

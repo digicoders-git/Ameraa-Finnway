@@ -262,11 +262,12 @@ export default function Contact() {
             <div className="w-16 h-1 bg-[#D4A537] my-4"></div>
             <div className="space-y-2">
               <p className="text-[#123A5A] text-lg font-semibold">
-                <a href="tel:+919592171057" className="hover:text-[#D4A537] transition-colors">+91 9592171057</a>
-              </p>
-              <p className="text-[#123A5A] text-lg font-semibold">
                 <a href="tel:+919076612555" className="hover:text-[#D4A537] transition-colors">+91 90766 12555</a>
               </p>
+              <p className="text-[#123A5A] text-lg font-semibold">
+                <a href="tel:+919592171057" className="hover:text-[#D4A537] transition-colors">+91 9592171057</a>
+              </p>
+              
             </div>
             <p className="text-[#3A3A3A] text-sm mt-2">
               Available Mon–Sat, 10AM–7PM
@@ -676,7 +677,7 @@ export default function Contact() {
       >
         <div className="max-w-4xl mx-auto">
           <h2 className="text-[#0A2740] text-3xl font-bold text-center mb-12">
-            Why Businesses Trust AMERAA FINNWAY
+            Why Businesses Trust AMIRRA FINWAYE
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[

@@ -306,7 +306,7 @@ export default function ConstructionRealEstate() {
 
             <div className="bg-linear-to-r from-[#0A2740] to-[#123A5A] rounded-2xl p-8 text-center">
               <p className="text-white text-lg leading-relaxed">
-                <span className="text-[#D4A537] font-bold">Government banks + Ameraa Finnway's structured advisory =</span>
+                <span className="text-[#D4A537] font-bold">Government banks + AMIRRA FINWAYE's structured advisory =</span>
                 <br />
                 Faster approvals + stronger financial credibility + long-term banking relationships.
               </p>
