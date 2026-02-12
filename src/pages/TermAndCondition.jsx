@@ -34,7 +34,7 @@ export default function TermAndCondition() {
       iconBg: "bg-blue-100",
       iconColor: "text-blue-600",
       content: [
-        "Welcome to AMIRRA FINWAYE ('Company', 'we', 'our', 'us')",
+        "Welcome to Amirra Finwaye ('Company', 'we', 'our', 'us')",
         "By using our website/services, you agree to these Terms",
         "If you disagree, please discontinue use immediately",
         "Our services include: Project Finance Advisory, Business Consulting, Funding Facilitation"
@@ -383,7 +383,7 @@ export default function TermAndCondition() {
                 <div className="lg:w-3/5">
                   <h3 className="text-2xl font-bold text-[#D4A537] mb-6">Important Legal Notice</h3>
                   <p className="text-[#A4C8E1] leading-relaxed mb-6">
-                    These Terms & Conditions form a legally binding agreement between you and AMIRRA FINWAYE. 
+                    These Terms & Conditions form a legally binding agreement between you and Amirra Finwaye. 
                     By using our services, you acknowledge that you have read, understood, and agreed to all 
                     terms mentioned in the sections above.
                   </p>
@@ -492,7 +492,7 @@ export default function TermAndCondition() {
                 </div>
                 <div className="flex items-start gap-3 bg-white/5 rounded-lg p-4">
                   <CheckCircle className="w-6 h-6 text-green-400 shrink-0 mt-1" />
-                  <span className="text-[#A4C8E1]">I understand AMIRRA FINWAYE is an advisory firm</span>
+                  <span className="text-[#A4C8E1]">I understand Amirra Finwaye is an advisory firm</span>
                 </div>
                 <div className="flex items-start gap-3 bg-white/5 rounded-lg p-4">
                   <CheckCircle className="w-6 h-6 text-green-400 shrink-0 mt-1" />

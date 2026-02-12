@@ -677,7 +677,7 @@ export default function Contact() {
       >
         <div className="max-w-4xl mx-auto">
           <h2 className="text-[#0A2740] text-3xl font-bold text-center mb-12">
-            Why Businesses Trust AMIRRA FINWAYE
+            Why Businesses Trust Amirra Finwaye
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[

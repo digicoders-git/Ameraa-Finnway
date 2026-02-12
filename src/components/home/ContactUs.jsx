@@ -30,7 +30,7 @@ const ContactUs = () => {
                   Vishhal S Kumar
                 </h3>
                 <p className="text-base md:text-xl text-[#D4A537] font-semibold mb-4">
-                  Founder, AMIRRA FINWAYE – Lucknow, India
+                  Founder, Amirra Finwaye – Lucknow, India
                 </p>
                 <p className="text-sm md:text-base text-[#3A3A3A] leading-relaxed mb-6">
                   With more than 20 years of financial expertise, Vishhal S Kumar

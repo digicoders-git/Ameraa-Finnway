@@ -260,7 +260,7 @@ export default function Hospitality() {
           </div>
 
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed mb-6">
-            AMIRRA FINWAYE specializes in structuring <span className="text-[#D4A537] font-semibold">15 Cr. and Above</span> funding for hotel developers, resort owners, and hospitality chains.
+            Amirra Finwaye specializes in structuring <span className="text-[#D4A537] font-semibold">15 Cr. and Above</span> funding for hotel developers, resort owners, and hospitality chains.
           </p>
 
           <div className="max-w-3xl mx-auto bg-[#F8F9FB] rounded-xl p-6 border-l-4 border-[#D4A537]">
@@ -324,7 +324,7 @@ export default function Hospitality() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] mb-4">
-              Why Hotels Choose AMIRRA FINWAYE
+              Why Hotels Choose Amirra Finwaye
             </h2>
             <p className="text-xl text-[#123A5A] font-semibold">
               Specialized Financial Structuring for Hospitality Cashflows

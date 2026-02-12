@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-bold text-[#D4A537] mb-4">
-              AMIRRA FINWAYE
+              Amirra Finwaye
             </h3>
             <p className=" text-gray-300 mb-6 leading-relaxed">
               A premier project finance advisory specializing in 15 Cr. and Above government bank funding for Real Estate, Hospitals, Hotels,
@@ -246,7 +246,7 @@ export default function Footer() {
               <NavLink to='/'>
                 <img
                 src={logo}
-                alt="AMIRRA FINWAYE Logo"
+                alt="Amirra Finwaye Logo"
                 className="h-10 w-auto mb-4 object-contain shadow-[0_0_20px_rgba(255,255,255,0.3)]"
               />
               </NavLink>

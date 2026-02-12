@@ -404,7 +404,7 @@ export default function Home() {
     {
       name: "Rajesh Kumar",
       sector: "Real Estate Developer",
-      text: "AMIRRA FINWAYE helped us secure ₹60 Cr for our hotel expansion with quick approval and professional coordination.",
+      text: "Amirra Finwaye helped us secure ₹60 Cr for our hotel expansion with quick approval and professional coordination.",
     },
     {
       name: "Dr. Priya Sharma",
@@ -436,7 +436,7 @@ export default function Home() {
       a: "Project DPR, Company Registration, Financial Statements (2-3 years), Land Documents, GST & IT Returns, and KYC documents.",
     },
     {
-      q: "Does Amera Finway provide funding from Govt Bank?",
+      q: "Does Amirra Finwaye provide funding from Govt Bank?",
       a: "Yes, we have strong partnerships with leading Government Banks, NBFCs, and Private Financial Institutions.",
     },
     {
@@ -487,8 +487,8 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left Content */}
               <div className="scroll-animate">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
-                  High-Value Project Finance from Leading Government Banks and
+                <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold mb-4 leading-tight">
+                  Amirra Finwaye - High Value Project Finance from Leading Government Banks and
                   Private Finance
                 </h1>
 
@@ -527,7 +527,7 @@ export default function Home() {
               <div className="hidden lg:flex justify-center items-center">
                 <img
                   src={logo}
-                  alt="AMIRRA FINWAYE"
+                  alt="Amirra Finwaye"
                   className="rounded-lg max-h-96 w-auto object-contain"
                 />
               </div>
@@ -605,7 +605,7 @@ export default function Home() {
                 <p className="text-[#123A5A] text-lg leading-relaxed mb-6">
                   At{" "}
                   <span className="text-[#D4A537] font-semibold">
-                    AMIRRA FINWAYE
+                    Amirra Finwaye
                   </span>
                   , we combine strategic business consulting with high-value
                   project funding to accelerate your company's growth. From
@@ -673,7 +673,7 @@ export default function Home() {
         <section id="why-us" className="bg-[#0A2740] text-white py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl md:text-4xl font-bold text-[#D4A537] text-center mb-12 scroll-animate">
-              Why AMIRRA FINWAYE?
+              Why Amirra Finwaye?
             </h2>
             <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               {usps.map((usp, idx) => (

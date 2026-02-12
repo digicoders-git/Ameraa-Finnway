@@ -231,7 +231,7 @@ const Healthcare = () => {
           </h2>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed mb-4">
             Healthcare is a capital-intensive sector that requires structured financing, strong documentation, and accurate revenue modelling.
-            AMIRRA FINWAYE provides 15 cr. and Above hospital project finance tailored to operational and regulatory requirements.
+            Amirra Finwaye provides 15 cr. and Above hospital project finance tailored to operational and regulatory requirements.
           </p>
           <p className="text-lg text-[#3A3A3A] max-w-4xl mx-auto leading-relaxed">
             We support healthcare providers through every stage — planning, documentation, bank evaluation, credit appraisal, and disbursement.

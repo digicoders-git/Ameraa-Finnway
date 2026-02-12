@@ -28,7 +28,7 @@ const C1 = () => {
             <p className="text-xl text-[#123A5A] max-w-4xl mx-auto leading-relaxed">
               At{" "}
               <span className="text-[#D4A537] font-semibold">
-                AMIRRA FINWAYE
+                Amirra Finwaye
               </span>
               , we do more than arrange funding — we build, scale and transform
               businesses into high-performance, future-ready organisations.
@@ -44,7 +44,7 @@ const C1 = () => {
                 accelerate long-term growth.
               </p>
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
-                For over two decades, AMIRRA FINWAYE has empowered businesses
+                For over two decades, Amirra Finwaye has empowered businesses
                 across India by securing large-ticket project finance through
                 Government Banks, NBFCs, and leading private institutions.
               </p>

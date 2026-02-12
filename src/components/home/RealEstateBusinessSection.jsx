@@ -100,7 +100,7 @@ const RealEstateBusinessSection = () => {
               <div className="space-y-6">
                 <p className="text-xl md:text-2xl text-white leading-relaxed font-light">
                   <span className="font-bold text-[#D4A537]">
-                    Ameeraa Finnway
+                    Amirra Finwaye
                   </span>{" "}
                   Restructures Businesses to Secure{" "}
                   <span className="font-semibold">

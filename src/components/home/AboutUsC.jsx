@@ -137,7 +137,7 @@ const AboutUsC = () => {
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
                 We are a specialised Business & Financial Consulting firm focused on helping ambitious organisations scale with confidence and clarity.
 
-At AMIRRA FINWAYE, we work at the intersection of capital, strategy, and execution. Our core expertise lies in enabling businesses to secure high-value project funding through Government Banks and leading Private Financial Institutions, while simultaneously strengthening their strategic, operational, and financial foundations.
+At Amirra Finwaye, we work at the intersection of capital, strategy, and execution. Our core expertise lies in enabling businesses to secure high-value project funding through Government Banks and leading Private Financial Institutions, while simultaneously strengthening their strategic, operational, and financial foundations.
               </p>
               <p className="text-lg text-[#3A3A3A] leading-relaxed mb-6">
                 Beyond funding, we act as a strategic growth partner, supporting
@@ -283,14 +283,14 @@ Along with funding, we provide clear strategic guidance so leaders can make conf
         </div>
       </section>
 
-      {/* Why AMIRRA FINWAYE */}
+      {/* Why Amirra Finwaye */}
       {/* <section className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#0A2740] text-center mb-8 scroll-animate">
-            Why AMIRRA FINWAYE
+            Why Amirra Finwaye
           </h2>
           <p className="text-lg text-[#123A5A] text-center mb-12 scroll-animate">
-            Clients choose AMIRRA FINWAYE because we offer:
+            Clients choose Amirra Finwaye because we offer:
           </p>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
             {whyUs.map((item, idx) => (
@@ -322,7 +322,7 @@ Along with funding, we provide clear strategic guidance so leaders can make conf
             Our Commitment
           </h2>
           <p className="text-xl text-center mb-12 max-w-3xl mx-auto scroll-animate">
-            At AMIRRA FINWAYE, we are committed to helping businesses:
+            At Amirra Finwaye, we are committed to helping businesses:
           </p>
           <div className="grid sm:grid-cols-2 gap-6 max-w-4xl mx-auto mb-12">
             {commitments.map((item, idx) => (
