@@ -336,13 +336,13 @@ export default function About() {
               </div>
               <div className="flex-1">
                 <h3 className="text-3xl md:text-4xl font-bold text-[#D4A537] mb-2">
-                  Vishhal S Kumar
+                  Vishal S Kumar
                 </h3>
                 <p className="text-xl text-white mb-4">
                   Founder, Amirra Finwaye – Lucknow, India
                 </p>
                 <p className="text-[#A4C8E1] leading-relaxed mb-6">
-                  With more than 20 years of financial expertise, Vishhal S Kumar is a recognized advisor in the space of project funding, construction finance, institutional lending, and government bank loan structuring.
+                  With more than 20 years of financial expertise, Vishal S Kumar is a recognized advisor in the space of project funding, construction finance, institutional lending, and government bank loan structuring.
                 </p>
                 <div className="space-y-3">
                   {[

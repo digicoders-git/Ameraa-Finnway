@@ -488,8 +488,8 @@ export default function Home() {
               {/* Left Content */}
               <div className="scroll-animate">
                 <h1 className="text-3xl md:text-4xl lg:text-4xl font-bold mb-4 leading-tight">
-                  Amirra Finwaye - High Value Project Finance from Leading Government Banks and
-                  Private Finance
+                  <span className="text-[#D4A537] hidden lg:block text-5xl mb-5">AMIRRA FINWAYE</span> <span>High Value Project Finance from Leading Government Banks and
+                  Private Finance</span>
                 </h1>
 
                 {/* 🔹 ADDED LINE (ONLY THIS) */}

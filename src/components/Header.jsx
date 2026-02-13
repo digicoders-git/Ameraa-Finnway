@@ -68,6 +68,10 @@ export default function Header() {
                 className="h-12 w-auto shadow-[0_0_20px_rgba(255,255,255,0.4)]"
               />
             </NavLink>
+
+            <div>
+              <p className="text-2xl mt-4 font-bold mb-4 leading-tight text-[#D4A537] lg:hidden">AMIRRA FINWAYE</p>
+            </div>
             
             <div className="hidden lg:flex items-center space-x-8">
               <NavLink to="/" className={({ isActive }) => `font-semibold hover:text-[#D4A537] transition-colors duration-200 ${isActive ? 'text-[#D4A537]' : ''}`}>Home</NavLink>
